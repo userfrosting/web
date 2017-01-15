@@ -13,6 +13,8 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
+        {% do assets.addCss('theme://assets/owl/css/owl.carousel.min.css', 103) %}
+        {% do assets.addCss('theme://assets/owl/css/owl.theme.default.min.css', 102) %}
         {% do assets.addCss('https://fonts.googleapis.com/icon?family=Material+Icons', 101) %}
         {% do assets.addCss('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i', 102) %}
         {% do assets.addCss('theme://css/materialize.min.css', 100) %}
@@ -23,8 +25,9 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('theme://js/materialize.min.js', 100) %}
-        {% do assets.addJs('theme://js/custom.js', 100) %}
+        {% do assets.addJs('theme://assets/owl/owl.carousel.min.js', 98) %}
+        {% do assets.addJs('theme://js/materialize.min.js', 99) %}
+        {% do assets.addJs('theme://js/custom.js', 97) %}
     {% endblock %}
     {{ assets.js() }}
 

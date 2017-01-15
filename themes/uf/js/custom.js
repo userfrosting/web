@@ -1,6 +1,9 @@
   $(document).ready(function(){
-    $(".button-collapse").sideNav(); //Materialize mobile Nav
+    
+    //Materialize mobile Nav
+    $(".button-collapse").sideNav(); 
 
+    //Active Nav Li a
     var url = window.location;
     var element = $('.navbar-fixed li a').filter(function() {
         // Strip out everything after the hash, if present
@@ -10,4 +13,8 @@
     if (element.is('li')) {
         element.addClass('active');
     }
+    
+    //Owl Carousel
+    $(".owl-carousel").owlCarousel();
+    
 });

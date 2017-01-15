@@ -1,7 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    <body>
+
         <div class="intro">
             <div class="container container-heading">
               <h1 class="center-align">
@@ -56,7 +56,7 @@
                     <div class="col s6 m4">
                       <div class="card">
                         <div class="card-image">
-                          <img src="images/sample-1.jpg">
+                          <img src="{{ url('theme://images/sample-1.jpg') }}">
                           <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
@@ -71,7 +71,7 @@
                     <div class="col s6 m4">
                       <div class="card">
                         <div class="card-image">
-                          <img src="images/sample-1.jpg">
+                          <img src="{{ url('theme://images/sample-1.jpg') }}">
                           <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
@@ -86,7 +86,7 @@
                     <div class="col s6 m4">
                       <div class="card">
                         <div class="card-image">
-                          <img src="images/sample-1.jpg">
+                          <img src="{{ url('theme://images/sample-1.jpg') }}">
                           <span class="card-title">Card Title</span>
                         </div>
                         <div class="card-content">
@@ -121,7 +121,7 @@
               <div class="col s6 m4">
                 <div class="card">
                   <div class="card-image">
-                    <img src="images/sample-1.jpg">
+                    <img src="{{ url('theme://images/sample-1.png') }}">
                     <span class="card-title">Card Title</span>
                   </div>
                   <div class="card-content">
@@ -176,52 +176,25 @@
                 <h3>
                     Built with Userfrosting
                 </h3>
-                <div class="row">
-                  <div class="col s6 m4">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title">Card Title</span>
-                      </div>
-                      <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                      </div>
+                <div class="owl-carousel owl-theme">
+                    <div>
+                        <img src="{{ url('theme://images/gallery-artsho.png') }}">
                     </div>
-                  </div>
-                  <div class="col s6 m4">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title">Card Title</span>
-                      </div>
-                      <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                      </div>
+                    <div>
+                        <img src="{{ url('theme://images/conjoinly.jpg') }}">
                     </div>
-                  </div>
-                  <div class="col s6 m4">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="images/sample-1.jpg">
-                        <span class="card-title">Card Title</span>
-                      </div>
-                      <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                      </div>
+                    <div>
+                        <img src="{{ url('theme://images/gallery-artsho.png') }}">
                     </div>
-                  </div>
+                    <div>
+                        <img src="{{ url('theme://images/gallery-safetymessaging.png') }}">
+                    </div>
+                    <div>
+                        <img src="{{ url('theme://images/gallery-safetymessaging.png') }}">
+                    </div>
+                    <div>
+                        <img src="{{ url('theme://images/gallery-safetymessaging.png') }}">
+                    </div>
                 </div>
             </div>
         </div>
@@ -245,7 +218,6 @@
                 </p>
             </div>
         </div>
-    </body>
           
 
 {% endblock %}

@@ -63,6 +63,12 @@ nav ul li a {
     margin-top: 100px;
 }
 
+/* Built with Userfrosting*/
+.owl-item {
+    width: 356px;
+    margin-right: 20px;
+}
+
 /*FOOTER*/
 footer {
     
