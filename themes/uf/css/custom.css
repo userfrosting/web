@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
-body {
+div.section:nth-child(even) {
+    background-color: #eceff1;
+}
 
+div.section:last-child {
+    background-color: white;
 }
 
 nav ul li a {
@@ -20,7 +24,7 @@ nav ul li a {
 
 .intro {
   height: 400px;
-  /*background-image: url('../images/background2.svg');*/
+  background-image: url('../images/background2.svg');
 }
 
 .intro h1 {
@@ -46,5 +50,10 @@ nav ul li a {
 /*FRONTPAGE SECTION*/
 .frontpage h4 {
     margin-top: 100px;
+}
+
+/*FOOTER*/
+footer {
+    
 }
 
