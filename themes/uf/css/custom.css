@@ -1,0 +1,50 @@
+/* SITE WIDE */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+nav ul li a {
+    color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/*FRONTPAGE SECTION*/
+
+.intro {
+  height: 400px;
+  background-image: url('../images/background2.svg');
+}
+
+.intro h1 {
+    padding-top: 1rem;
+}
+
+.intro h2 {
+    font-family: Roboto;
+    font-weight: 100;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.container-heading {
+    position: relative;
+    top: 80px;
+    width: 80%;
+    background-color: white;
+    outline: #9c9a9a 1px solid;
+    box-shadow: 6px 7px 7px 4px rgba(187, 184, 184, 0.5)
+}
+
+/*FRONTPAGE SECTION*/
+.frontpage h4 {
+    margin-top: 100px;
+}
+
