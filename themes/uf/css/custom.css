@@ -20,7 +20,7 @@ nav ul li a {
 
 .intro {
   height: 400px;
-  background-image: url('../images/background2.svg');
+  /*background-image: url('../images/background2.svg');*/
 }
 
 .intro h1 {
@@ -37,10 +37,10 @@ nav ul li a {
 .container-heading {
     position: relative;
     top: 80px;
-    width: 80%;
+    /*width: 80%;
     background-color: white;
     outline: #9c9a9a 1px solid;
-    box-shadow: 6px 7px 7px 4px rgba(187, 184, 184, 0.5)
+    box-shadow: 6px 7px 7px 4px rgba(187, 184, 184, 0.5)*/
 }
 
 /*FRONTPAGE SECTION*/
