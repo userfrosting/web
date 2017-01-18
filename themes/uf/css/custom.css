@@ -23,12 +23,25 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+.navbar-fixed { z-index: 9999; }
+
 .active:after {
     content: '';
     display: block;
     background: rgba(0,0,0,.1);
     height: 2px;
     width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -16px;
+}
+
+.side-nav .active:after {
+    content: '';
+    display: block;
+    background: rgba(0,0,0,0);
+    height: 0px;
+    width: 0px;
     margin: 0 auto;
     position: relative;
     top: -16px;
