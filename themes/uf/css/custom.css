@@ -11,6 +11,7 @@ div.section:nth-child(even) {
 
 div.section:last-child {
     background-color: white;
+    box-shadow: 0px 0px white;
 }
 
 nav ul li a {
@@ -35,7 +36,7 @@ nav ul li a {
 
 .intro {
   height: 400px;
-  background-image: url('../images/background2.svg');
+  background-image: url('../images/background.svg');
 }
 
 .intro h1 {
@@ -79,10 +80,7 @@ nav ul li a {
 }
 
 /* Built with Userfrosting*/
-.owl-item {
-    width: 356px;
-    margin-right: 20px;
-}
+
 
 /*FOOTER*/
 
