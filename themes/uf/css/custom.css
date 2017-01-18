@@ -85,7 +85,22 @@ nav ul li a {
 }
 
 /*FOOTER*/
-footer {
-    
+
+
+/*.container-wide {
+	  margin: 0 auto;
+	  max-width: 1380px;
+	  width: 95%;
+	}
+@media #{$medium-and-up} {
+  .container-wide {
+    width: 90%;
+  }
 }
+@media #{$large-and-up} {
+  .container-wide {
+    width: 80%;
+  }
+}*/
+
 
