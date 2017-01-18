@@ -1,5 +1,9 @@
 /* SITE WIDE */
 
+a:hover {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 668px)  {
     h1, .intro h1 {
         font-size: 3.4em !important;
@@ -58,7 +62,6 @@ nav ul li a {
   height: 400px;
   background-image: url('../images/background.svg');
 }
-
 
 .intro h1 {
     padding-top: 1rem;
@@ -126,6 +129,15 @@ nav ul li a {
 
 .builtwith img {
     max-width: 100%;
+}
+
+/*Interact Page*/
+
+
+.pinku {
+    padding-bottom: .5rem;
+    border-bottom: 3px pink;
+    border-bottom-style: solid;
 }
 
 /*FOOTER*/
