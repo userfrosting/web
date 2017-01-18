@@ -1,4 +1,9 @@
 /* SITE WIDE */
+
+img {
+    max-width: 100%;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -81,6 +86,24 @@ nav ul li a {
 
 /* Built with Userfrosting*/
 
+
+.hover-img  {
+    position: absolute;
+    width: 360px;
+    height: 263px;
+    opacity: 0;
+    background: rgb(255, 176, 202);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.hover-img:hover {
+    opacity: .5;
+    cursor: pointer;
+    max-width: 100%;
+    overflow: auto;
+}
 
 /*FOOTER*/
 

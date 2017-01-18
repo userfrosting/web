@@ -14,7 +14,16 @@
         element.addClass('active');
     }
     
-    //Owl Carousel
-    $(".owl-carousel").owlCarousel();
+    //Match Height
+    $(function() {
+      $('.hover-img').matchHeight({
+          target: $('.hc')
+      });
+    });
     
+    //Match Width
+    $('.hover-img').matchWidth($('.hc'));
 });
+  
+
+  
