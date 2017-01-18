@@ -23,6 +23,9 @@
     
     //Match Width
     $('.hover-img').matchWidth($('.hc'));
+    
+    //Material Box
+    $('.materialboxed').materialbox();
 });
   
 

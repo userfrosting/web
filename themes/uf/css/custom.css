@@ -1,8 +1,5 @@
 /* SITE WIDE */
 
-img {
-    max-width: 100%;
-}
 
 * {
     -webkit-box-sizing: border-box;
@@ -103,6 +100,10 @@ nav ul li a {
     cursor: pointer;
     max-width: 100%;
     overflow: auto;
+}
+
+.builtwith img {
+    max-width: 100%;
 }
 
 /*FOOTER*/
