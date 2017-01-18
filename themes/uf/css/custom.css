@@ -1,5 +1,10 @@
 /* SITE WIDE */
 
+@media only screen and (max-width: 668px)  {
+    h1, .intro h1 {
+        font-size: 3.4em !important;
+    }
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -53,6 +58,7 @@ nav ul li a {
   height: 400px;
   background-image: url('../images/background.svg');
 }
+
 
 .intro h1 {
     padding-top: 1rem;
@@ -125,20 +131,5 @@ nav ul li a {
 /*FOOTER*/
 
 
-/*.container-wide {
-	  margin: 0 auto;
-	  max-width: 1380px;
-	  width: 95%;
-	}
-@media #{$medium-and-up} {
-  .container-wide {
-    width: 90%;
-  }
-}
-@media #{$large-and-up} {
-  .container-wide {
-    width: 80%;
-  }
-}*/
 
 
