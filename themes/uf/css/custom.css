@@ -131,6 +131,16 @@ nav ul li a {
     max-width: 100%;
 }
 
+/*Help Section*/
+.help li {
+    list-style-type: disc !important;
+    line-height: 1.5rem;
+    padding-top: 1.25rem;
+}
+
+li ul li {
+    margin-left: 4rem;
+}
 /*Interact Page*/
 
 
