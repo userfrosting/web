@@ -58,9 +58,24 @@ nav ul li a {
     box-shadow: 6px 7px 7px 4px rgba(187, 184, 184, 0.5)*/
 }
 
-/*FRONTPAGE SECTION*/
 .frontpage h4 {
     margin-top: 100px;
+}
+
+@media only screen and (min-width:601px) {
+
+}
+
+@media only screen and (min-width:992px) {
+
+}
+
+@media only screen and (min-width:993px) {
+
+}
+
+@media only screen and (min-width:1350px) {
+
 }
 
 /* Built with Userfrosting*/
