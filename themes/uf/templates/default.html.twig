@@ -48,11 +48,11 @@
             <div class="col s12 m6"><!-- Begin Feature Login-->
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/userman.png') }}" data-caption="If enabled, users can register for new accounts automatically.">
+                  <img class="materialboxed"src="{{ url('theme://images/features/login.png') }}" data-caption="If enabled, users can register for new accounts automatically.">
                 </div>
                 <div class="card-content">
                   <h4>
-                    User login
+                    Login and registration
                   </h4>
                   <ul>
                     <li>
@@ -65,64 +65,17 @@
                         Send activation link via email
                     </li>
                     <li>
-                        Forgot password link
+                        Self-service forgotten password reset tool
                     </li>
                   </ul>
                 </div>
               </div>
             </div><!-- End Feature-->
-            <div class="col s12 m6"><!-- Begin Feature Dashboard-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/adminlte.png') }}" data-caption="Users can quickly access important information and actions.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    User Dashboard
-                  </h4>
-                  <ul>
-                    <li>
-                        Consolidate essentials
-                    </li>
-                    <li>
-                        Create custom dashboards
-                    </li>
-                    <li>
-                        Sort tables & create charts
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-        </div> <!-- End row -->
-        <div class="row">
-            <div class="col s12 m6"><!-- Begin Feature Permissions & Groups-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/adminlte.png') }}" data-caption="Create complex user and group permissions.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    Permissions & Groups
-                  </h4>
-                  <ul>
-                    <li>
-                        Define fine-grained permissions 
-                    </li>
-                    <li>
-                        Create complex group and user relationships
-                    </li>
-                    <li>
-                       Create nested and independent user authorizations
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
+            
             <div class="col s12 m6"><!-- Begin Feature Manage Users-->
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/adminlte.png') }}" data-caption="Allow users to change their display name, locale & language, password, and more.">
+                  <img class="materialboxed"src="{{ url('theme://images/features/users.png') }}" data-caption="Manage users, including basic create/update/delete, issue password resets, and managing user roles.">
                 </div>
                 <div class="card-content">
                   <h4>
@@ -130,38 +83,94 @@
                   </h4>
                   <ul>
                     <li>
-                        Easily control which fields users can view & edit
+                        Create new users
                     </li>
                     <li>
-                        Allow users to edit their account information
-                    </li>
-                    <li>
-                       Change group assignments
+                        Edit existing users
                     </li>
                     <li>
                         Enable, disable, edit, activate, and delete users
+                    </li>
+                    <li>
+                        Issue password reset emails for users
+                    </li>
+                    <li>
+                        Manage user permissions through their roles
+                    </li>
+                    <li>
+                        Export any table view to a CSV file
                     </li>
                   </ul>
                 </div>
               </div>
             </div><!-- End Feature-->
-        </div><!-- End Row-->
-        <div class="row">
-            <div class="col s12 m6"><!-- Begin Feature Admin LTE-->
+            
+            <div class="col s12 m6"><!-- Begin Feature Permissions & Groups-->
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/adminlte.png') }}" data-caption="Admin LTE comes with quite a few bells and whistles.">
+                  <img class="materialboxed"src="{{ url('theme://images/features/permissions.png') }}" data-caption="Create complex permissions, and assign them to users through roles.">
                 </div>
                 <div class="card-content">
                   <h4>
-                    Admin LTE Theme
+                    Roles and Permissions
                   </h4>
                   <ul>
                     <li>
-                        Uses the popular Admin LTE Theme from Bootstrap
+                        Define fine-grained permissions with programmatic conditions
                     </li>
                     <li>
-                        Customize to your own theme without overwriting any code
+                        Aggregate permissions into roles
+                    </li>
+                    <li>
+                       Assign users to one or more roles
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End Feature-->
+            
+            <div class="col s12 m6"><!-- Begin Feature Dashboard-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/dashboard-admin.png') }}" data-caption="Users can quickly access important information and actions.">
+                </div>
+                <div class="card-content">
+                  <h4>
+                    AdminLTE Theme
+                  </h4>
+                  <ul>
+                    <li>
+                        Ships with Bootstrap and the wildly popular AdminLTE theme, fully integrated out-of-the-box
+                    </li>
+                    <li>
+                        Create custom dashboards
+                    </li>
+                    <li>
+                        Sort tables & create charts
+                    </li>
+                    <li>
+                        Customize to your own theme using the Sprinkle system
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End Feature-->
+
+            <div class="col s12 m6"><!-- Begin Feature Activity-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/activity.png') }}" data-caption="Monitor user activity.">
+                </div>
+                <div class="card-content">
+                  <h4>
+                    Monitor User Activity
+                  </h4>
+                  <ul>
+                    <li>
+                        Know what your users are doing
+                    </li>
+                    <li>
+                        Optionally log IP addresses to detect suspicious activity
                     </li>
                   </ul>
                 </div>
@@ -170,21 +179,21 @@
             <div class="col s12 m6"><!-- Begin Feature Site Settings-->
               <div class="card">
                 <div class="card-image">
-                  <img class="materialboxed" src="{{ url('theme://images/features/adminlte.png') }}" data-caption="Change site-wide settings, view configuration details and logs.">
+                  <img class="materialboxed" src="{{ url('theme://images/features/public.png') }}" data-caption="Create web pages and REST apis just as easily.">
                 </div>
                 <div class="card-content">
                   <h4>
-                    Site Settings
+                    A Fully Functional Web Framework
                   </h4>
                   <ul>
                     <li>
-                        Easily access essential management tools
+                        Implement any web application
                     </li>
                     <li>
-                        Restricted to root user by default
+                        Create any page, public or private
                     </li>
                     <li>
-                       View PHP error log
+                        RESTful APIs that return JSON or XML
                     </li>
                   </ul>
                 </div>
