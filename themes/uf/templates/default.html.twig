@@ -2,217 +2,522 @@
 
 {% block content %}
 
-        <div class="intro">
-            <div class="container container-heading">
-              <h1 class="center-align">
-                  USERFROSTING
-              </h1>
-              <h2  class="center-align">
-                  MODERN USER MANAGEMENT FOR PHP
-              </h2>
-            </div>
-        </div>
-        <div class="frontpage section z-depth-1">
-            <div class="container">
-                <h3>
-                    
-                    Userfrosting delivers.
-                </h3>
-                <p class="flow-text">
-                    Chances are you're here because you have a great idea for a user-oriented website.
-                    Whether it's a private forum for your WoW guild, an employee management system for your small business, or the next big social network, we're guessing you want to get started on your awesome new idea as quickly as possible. You most certainly do not want to spend your time writing code to manage user authentication and authorization.
-                </p>
-                <h3>
-                    
-                    A fully extendable PHP application.
-                </h3> 
-                <p class="flow-text">
-                    Get started on your project, without starting from "Hello World". With some basic configuration and an easy-to-use installer, you'll be ready to create and manage user accounts in 5 minutes or less. All you need is a web server running PHP 5.4 or greater, and a SQL database.
-                </p>
-                <h3>
-                    
-                    A PHP learning tool.
-                </h3>
-                <p class="flow-text">
-                     Who is UserFrosting meant for?
-                     UserFrosting is meant for individuals who have some background in programming, but are not familiar with all of the modern tools available to make development in PHP faster, and to make your code better structured and easier to manage. By starting with UserFrosting, you will be comfortably introduced to Composer (the dependency manager), MVC, the front-controller pattern, and RESTful URLs.
-                     
-                     Who uses UserFrosting?
-                     All sorts of people! Check out our gallery of sites that are built on UserFrosting.
-                </p>
-            </div>
-        </div>
-        <div class="features section">
-            <div class="container">
-                <h3>
-                    User features
-                </h3>
-                <div class="row">
-                    <div class="col s6 m4">
-                      <div class="card">
-                        <div class="card-image">
-                          <img src="{{ url('theme://images/sample-1.jpg') }}">
-                          <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                          <p>I am a very simple card. I am good at containing small bits of information.
-                          I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">This is a link</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s6 m4">
-                      <div class="card">
-                        <div class="card-image">
-                          <img src="{{ url('theme://images/sample-1.jpg') }}">
-                          <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                          <p>I am a very simple card. I am good at containing small bits of information.
-                          I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">This is a link</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s6 m4">
-                      <div class="card">
-                        <div class="card-image">
-                          <img src="{{ url('theme://images/sample-1.jpg') }}">
-                          <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                          <p>I am a very simple card. I am good at containing small bits of information.
-                          I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">This is a link</a>
-                        </div>
-                      </div>
-                    </div>
+<div class="intro">
+    <div class="container container-heading">
+        <h1 class="center-align">
+            USERFROSTING
+        </h1>
+        <h2  class="center-align">
+            MODERN USER MANAGEMENT FOR PHP
+        </h2>
+    </div>
+</div>
+<div class="frontpage section">
+    <div class="container">
+        <h3>
+            
+            Userfrosting delivers.
+        </h3>
+        <p class="flow-text">
+            Chances are you're here because you have a great idea for a user-oriented website.
+            Whether it's a private forum for your WoW guild, an employee management system for your small business, or the next big social network, we're guessing you want to get started on your awesome new idea as quickly as possible. You most certainly do not want to spend your time writing code to manage user authentication and authorization.
+        </p>
+        <h3>
+            
+            A fully extendable PHP application.
+        </h3> 
+        <p class="flow-text">
+            Get started on your project, without starting from "Hello World". With some basic configuration and an easy-to-use installer, you'll be ready to create and manage user accounts in 5 minutes or less. All you need is a web server running PHP 5.4 or greater, and a SQL database.
+        </p>
+        <h3>
+            
+            A PHP learning tool.
+        </h3>
+        <p class="flow-text">
+             Who is UserFrosting meant for?
+             UserFrosting is meant for individuals who have some background in programming, but are not familiar with all of the modern tools available to make development in PHP faster, and to make your code better structured and easier to manage. By starting with UserFrosting, you will be comfortably introduced to Composer (the dependency manager), MVC, the front-controller pattern, and RESTful URLs.
+        </p>
+    </div>
+</div>
+<div class="features section">
+    <div class="container">
+        <h3>
+            User features
+        </h3>
+        <div class="row">
+            <div class="col s12 m6"><!-- Begin Feature Login-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/login.png') }}" data-caption="If enabled, users can register for new accounts automatically.">
                 </div>
-                <h3>
-                    Developer features
-                </h3>
-                <div class="row">
-              <div class="col s6 m4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
+                <div class="card-content">
+                  <h4>
+                    Login and registration
+                  </h4>
+                  <ul>
+                    <li>
+                        Automatic registration option
+                    </li>
+                    <li>
+                        Require CAPTCHA option
+                    </li>
+                    <li>
+                        Send activation link via email
+                    </li>
+                    <li>
+                        Self-service forgotten password reset tool
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="col s6 m4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="{{ url('theme://images/sample-1.png') }}">
-                    <span class="card-title">Card Title</span>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
+            </div><!-- End Feature-->
+            
+            <div class="col s12 m6"><!-- Begin Feature Manage Users-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/users.png') }}" data-caption="Manage users, including basic create/update/delete, issue password resets, and managing user roles.">
+                </div>
+                <div class="card-content">
+                  <h4>
+                    Manage Users
+                  </h4>
+                  <ul>
+                    <li>
+                        Create new users
+                    </li>
+                    <li>
+                        Edit existing users
+                    </li>
+                    <li>
+                        Enable, disable, edit, activate, and delete users
+                    </li>
+                    <li>
+                        Issue password reset emails for users
+                    </li>
+                    <li>
+                        Manage user permissions through their roles
+                    </li>
+                    <li>
+                        Export any table view to a CSV file
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="col s6 m4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#">This is a link</a>
-                  </div>
+            </div><!-- End Feature-->
+            
+            <div class="col s12 m6"><!-- Begin Feature Permissions & Groups-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/permissions.png') }}" data-caption="Create complex permissions, and assign them to users through roles.">
+                </div>
+                <div class="card-content">
+                  <h4>
+                    Roles and Permissions
+                  </h4>
+                  <ul>
+                    <li>
+                        Define fine-grained permissions with programmatic conditions
+                    </li>
+                    <li>
+                        Aggregate permissions into roles
+                    </li>
+                    <li>
+                       Assign users to one or more roles
+                    </li>
+                  </ul>
                 </div>
               </div>
-          </div>
-            </div>
-        </div>
-        <div class="whatpeoplearesaying section z-depth-2">
-            <div class="container">
-                <h3>
-                   What people are saying...  
-                </h3>
-                <p class="flow-text">
-                     Spicy jalapeno bacon ipsum dolor amet biltong aliquip venison shankle. Nostrud elit chicken, ut laboris pork chop rump beef pariatur exercitation spare ribs chuck reprehenderit flank. Ham consectetur irure biltong frankfurter excepteur occaecat ut enim officia sed sunt est cupim et. Nisi ut ground round andouille laborum veniam beef ribs in venison bresaola eu duis aute anim dolore. Nisi voluptate ullamco sed. Corned beef esse pancetta, non sed ullamco elit andouille labore eu tenderloin ribeye aute chicken.
-                </p>
-            </div>
-        </div>
-        <div class="contributors section">
-            <div class="container">
-                <h3>
-                    Contributors
-                </h3>
-                <p class="flow-text">
-                     Spicy jalapeno bacon ipsum dolor amet biltong aliquip venison shankle. Nostrud elit chicken, ut laboris pork chop rump beef pariatur exercitation spare ribs chuck reprehenderit flank. Ham consectetur irure biltong frankfurter excepteur occaecat ut enim officia sed sunt est cupim et. Nisi ut ground round andouille laborum veniam beef ribs in venison bresaola eu duis aute anim dolore. Nisi voluptate ullamco sed. Corned beef esse pancetta, non sed ullamco elit andouille labore eu tenderloin ribeye aute chicken.
-                </p>
-            </div>
-        </div>
-        <div class="builtwith section z-depth-3">
-            <div class="container">
-                <h3>
-                    Built with Userfrosting
-                </h3>
-                <div class="owl-carousel owl-theme">
-                    <div>
-                        <img src="{{ url('theme://images/gallery-artsho.png') }}">
-                    </div>
-                    <div>
-                        <img src="{{ url('theme://images/conjoinly.jpg') }}">
-                    </div>
-                    <div>
-                        <img src="{{ url('theme://images/gallery-artsho.png') }}">
-                    </div>
-                    <div>
-                        <img src="{{ url('theme://images/gallery-safetymessaging.png') }}">
-                    </div>
-                    <div>
-                        <img src="{{ url('theme://images/gallery-safetymessaging.png') }}">
-                    </div>
-                    <div>
-                        <img src="{{ url('theme://images/gallery-safetymessaging.png') }}">
-                    </div>
+            </div><!-- End Feature-->
+            
+            <div class="col s12 m6"><!-- Begin Feature Dashboard-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/dashboard-admin.png') }}" data-caption="Users can quickly access important information and actions.">
                 </div>
-            </div>
-        </div>
-        <div class="community section">
-            <div class="container">
-                <h3>
-                    Community Driven
-                </h3>
-                <p class="flow-text">
-                     Spicy jalapeno bacon ipsum dolor amet biltong aliquip venison shankle. Nostrud elit chicken, ut laboris pork chop rump beef pariatur exercitation spare ribs chuck reprehenderit flank. Ham consectetur irure biltong frankfurter excepteur occaecat ut enim officia sed sunt est cupim et. Nisi ut ground round andouille laborum veniam beef ribs in venison bresaola eu duis aute anim dolore. Nisi voluptate ullamco sed. Corned beef esse pancetta, non sed ullamco elit andouille labore eu tenderloin ribeye aute chicken.
-                </p>
-            </div>
-        </div>
-        <div class="whychoose section">
-            <div class="container">
-                <h3>
-                    Why choose userfrosting?
-                </h3>
-                <p class="flow-text">
-                     Spicy jalapeno bacon ipsum dolor amet biltong aliquip venison shankle. Nostrud elit chicken, ut laboris pork chop rump beef pariatur exercitation spare ribs chuck reprehenderit flank. Ham consectetur irure biltong frankfurter excepteur occaecat ut enim officia sed sunt est cupim et. Nisi ut ground round andouille laborum veniam beef ribs in venison bresaola eu duis aute anim dolore. Nisi voluptate ullamco sed. Corned beef esse pancetta, non sed ullamco elit andouille labore eu tenderloin ribeye aute chicken.
-                </p>
-            </div>
-        </div>
-          
+                <div class="card-content">
+                  <h4>
+                    AdminLTE Theme
+                  </h4>
+                  <ul>
+                    <li>
+                        Ships with Bootstrap and the wildly popular AdminLTE theme, fully integrated out-of-the-box
+                    </li>
+                    <li>
+                        Create custom dashboards
+                    </li>
+                    <li>
+                        Sort tables & create charts
+                    </li>
+                    <li>
+                        Customize to your own theme using the Sprinkle system
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End Feature-->
 
+            <div class="col s12 m6"><!-- Begin Feature Activity-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed"src="{{ url('theme://images/features/activity.png') }}" data-caption="Monitor user activity.">
+                </div>
+                <div class="card-content">
+                  <h4>
+                    Monitor User Activity
+                  </h4>
+                  <ul>
+                    <li>
+                        Know what your users are doing
+                    </li>
+                    <li>
+                        Optionally log IP addresses to detect suspicious activity
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End Feature-->
+            <div class="col s12 m6"><!-- Begin Feature Site Settings-->
+              <div class="card">
+                <div class="card-image">
+                  <img class="materialboxed" src="{{ url('theme://images/features/public.png') }}" data-caption="Create web pages and REST apis just as easily.">
+                </div>
+                <div class="card-content">
+                  <h4>
+                    A Fully Functional Web Framework
+                  </h4>
+                  <ul>
+                    <li>
+                        Implement any web application
+                    </li>
+                    <li>
+                        Create any page, public or private
+                    </li>
+                    <li>
+                        RESTful APIs that return JSON or XML
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End Feature-->
+        </div>
+    </div><!-- End container-->
+</div><!-- End section-->
+<div class="features section">
+    <div class="container">
+        <h3>
+            Developer features
+        </h3>
+        <div class="row"><!-- Begin row-->
+            <div class="col s12 m4"><!-- Begin feature sprinkles-->
+                <div class="card">
+                    <div class="card-content">
+                        <h4>
+                          Sprinkles
+                        </h4>
+                        <div class="card-image">
+                          
+                        </div>
+                        <ul>
+                          <li>
+                              Incorporate, develop, and share modular themes and plugins
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://learn.userfrosting.com/sprinkles">Check out the documentation</a>
+                    </div>
+                </div>
+            </div><!-- End feature sprinkles-->
+            <div class="col s12 m4"><!-- Begin feature error-->
+                <div class="card">
+                    <div class="card-content">
+                        <h4>
+                          Error handler
+                        </h4>
+                        <div class="card-image">
+                          
+                        </div>
+                        <ul>
+                          <li>
+                              Smart error handlers help you find the problem and work out the solution
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                      <a href="">Documentation pending</a>
+                    </div>
+                </div>
+            </div><!-- End feature error-->
+            <div class="col s12 m4"><!-- Begin feature asset-->
+                <div class="card">
+                    <div class="card-content">
+                        <h4>
+                         Asset manager
+                        </h4>
+                        <div class="card-image">
+                          
+                        </div>
+                        <ul>
+                          <li>
+                              Asset manager toggles between min and production versions of assets at the flip of a switch
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://learn.userfrosting.com/building-pages/assets">Check out the documentation</a>
+                    </div>
+                </div>
+            </div><!-- End feature asset-->
+        </div><!-- End row-->
+        <div class="row"><!-- Begin row-->
+            <div class="col s12 m4"><!-- Begin feature language-->
+                <div class="card">
+                    <div class="card-content">
+                        <h4>
+                          Language support
+                        </h4>
+                        <div class="card-image">
+                          
+                        </div>
+                        <ul>
+                          <li>
+                              Userfrosting comes with a complete internationalization system, allowing you to translate your pages into any language you want
+                          </li>
+                          <br>
+                          <li>
+                            Create a new language sprinkle, or use an existing one
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://learn.userfrosting.com/building-pages/i18n">Check out the documentation</a>
+                    </div>
+                </div>
+            </div><!-- End feature language-->
+            <div class="col s12 m4"><!-- Begin feature MVC-->
+                <div class="card">
+                    <div class="card-content">
+                        <h4>
+                          MVC Controller
+                        </h4>
+                        <div class="card-image">
+                          
+                        </div>
+                        <ul>
+                          <li>
+                              Powerful routing and request/response abstractions with Slim to decouple web pages from PHP files
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://learn.userfrosting.com/routes-and-controllers/introduction">Check out the documentation</a>
+                    </div>
+                </div>
+            </div><!-- End feature MVC-->
+            <div class="col s12 m4"><!-- Begin feature Twig-->
+                <div class="card">
+                    <div class="card-content">
+                        <h4>
+                         Templating
+                        </h4>
+                        <div class="card-image">
+                          
+                        </div>
+                        <ul>
+                          <li>
+                              Consistent, easy-to-use templating with Twig
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                      <a href="http://twig.sensiolabs.org/doc/2.x/api.html">Check Twig's documentation</a>
+                    </div>
+                </div>
+            </div><!-- End feature 3-->
+        </div><!-- End row-->
+    </div><!-- End container-->
+</div><!-- End features section-->
+
+<div class="contributors section">
+    <div class="container">
+        <h3>
+            Contributors
+        </h3>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card blue">
+                    <div class="card-content">
+                      <img src="{{ url('theme://images/bios/alex.png') }}" class="circle responsive-img">
+                      <span class="card-title">
+                        Alexander Weissman
+                      </span>
+                      <p>
+                        Alex is the founder and co-owner of two companies, one that does math tutoring at IU in Bloomington, IN and another company that does math tutoring at UMD in College Park, MD. He is a PhD student in the School of Informatics and Computing at Indiana University.
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card red">
+                    <div class="card-content">
+                      <img src="{{ url('theme://images/bios/louis.png') }}" class="circle responsive-img">
+                      <span class="card-title">
+                        Louis Charette
+                      </span>
+                      <p>
+                        Louis's a civil engineer who also has a passion for coding. He is one of the main contributors for SimpsonsCity.com and like to share is knowledge by helping other the same way he was helped when he first started coding.
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card yellow">
+                    <div class="card-content">
+                        <img src="{{ url('theme://images/bios/jordan.png') }}" class="circle responsive-img">
+                        <span class="card-title">
+                          Jordan Mele
+                        </span>
+                        <p>
+                            Jordan’s a developer at Mayvin Training and a student studying Computer Science at the University of Wollongong. His passion is creating software based solutions to overcomplicated problems, without taking control away from the user. He’s also Australian.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card orange lighten-1">
+                    <div class="card-content">
+                        <img src="{{ url('theme://images/bios/mike.png') }}" class="circle responsive-img">
+                        <span class="card-title">
+                          Mike Jacobs
+                        </span>
+                        <p>
+                        Mike's a programmer and IT specialist for a small business in NH, and works on open source projects when he's not camping or traveling.    
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card green">
+                    <div class="card-content">
+                        <img src="{{ url('theme://images/bios/sri.png') }}" class="circle responsive-img">
+                        <span class="card-title">
+                          Srinivas Nukala
+                        </span>
+                        <p>
+                        Srinivas's a web applications architect, with a passion for open source technologies. He is experienced in building "as a service" web applications and enjoys working on open source projects and contributing to the community. He has a Masters in Computer Science from Pune University, India.    
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="builtwith section">
+    <div class="container">
+        <h3>
+            Built with Userfrosting
+        </h3>
+        <div class="row">
+            <div class="col s6">
+                <a href="http://artsho.ws/">
+                    <div class="hover-img">
+                    </div>
+                </a>
+                <img src="{{ url('theme://images/gallery/artsho.png') }}" class="img-responsive hc">
+            </div>
+            <div class="col s6">
+                <a href="http://safetymessaging.net/">
+                    <div class="hover-img">
+                    </div>
+                </a>
+                <img src="{{ url('theme://images/gallery/safetymessaging.jpg') }}">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <a href="https://bloomingtontutors.com/">
+                    <div class="hover-img">
+                    </div>
+                </a>
+                <img src="{{ url('theme://images/gallery/bloomingtontutors.jpg') }}">
+            </div>
+            <div class="col s6">
+                <a href="https://collegeparktutors.com">
+                    <div class="hover-img">
+                    </div>
+                </a>
+                <img src="{{ url('theme://images/gallery/collegeparktutors.jpg') }}">
+            </div>
+        </div>
+        <div class="row">           
+            <div class="col s6">
+                <a href="http://conjoint.online/">
+                    <div class="hover-img">
+                    </div>
+                </a>
+                <img src="{{ url('theme://images/gallery/conjointly.jpg') }}">
+            </div>
+            <div class="col m6 s6">
+                <a href="https://quizevolved.com/">
+                    <div class="hover-img">
+                    </div>
+                </a>
+                <img src="{{ url('theme://images/gallery/quizevolved.jpg') }}">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="help section">
+    <div class="container">
+        <h3 class="pinku">
+            Getting help with your project
+        </h3>
+        <h4 class="blue-text text-darken-2" style="margin-top: 2rem;">
+            Using the documentation
+        </h4>
+        <ul>
+            <li>
+                If you're just getting started with UserFrosting and the code looks completely different from anything you've ever seen before, we recommend that you start with <a href="http://www.userfrosting.com/navigating/">Navigating UserFrosting</a>.  This will explain the components and practices that UserFrosting uses to do its magic.
+            </li>
+            <li>
+                If you're having trouble with installation, please see our <a href="http://www.userfrosting.com/troubleshooting">troubleshooting guide</a>.
+            </li>
+            <li>
+                If you feel comfortable with the basic concepts, and were able to install UserFrosting successfully, you can dive into the code with our <a href="http://www.userfrosting.com/tutorials">tutorials</a>.
+            </li>
+            <li>
+                If you have a problem that you've already tried to solve and you can ask a specific, focused question, consider asking on <a href="http://stackoverflow.com">Stack Overflow</a>.  Include the relevant code, and any errors reported in your PHP error log and/or browser console.  Tag your question with the <code>userfrosting</code> tag, and optionally with any tags specific to the relevant underlying technologies, such as <code>slim</code>, <code>twig</code>, <code>eloquent</code>, <code>composer</code>, etc.  You should also mention the version of UserFrosting that you are using.
+            </li>
+            <li>
+                After posting a question on Stack Overflow, please link to it our <a href="https://chat.userfrosting.com/channel/support">chat room</a>.  This will ensure that more people see it, and provide a place where we can discuss and help clarify your question.
+            </li>
+        </ul>
+        <h4 class="blue-text text-darken-2" style="margin-top: 4rem;">
+            Tips for asking for help
+        </h4>
+        <ul>
+            <li>
+                Remember that courtesy and proper grammar go a long way. Please take the time to craft a <strong>precise, polite question</strong>. We will do our best to help, but remember that this is an open source project - none of us are getting paid a salary to develop this project, or act as your personal support hotline ;-)
+            </li>
+            <li>
+                Carefully search <a href="http://stackoverflow.com/tags/userfrosting">Stack Overflow</a>, the <a href="https://github.com/userfrosting/UserFrosting/issues?utf8=%E2%9C%93&q=is%3Aissue">Github issue tracker</a>, and the <a href="https://github.com/userfrosting/UserFrosting/wiki">wiki</a>.  Your question may have already been asked and answered before!
+            </li>
+            <li>
+                Report any error messages you get. There are two main places where you may find error messages:
+                <ul>
+                    <li>
+                        Backend (PHP-related) errors: in your PHP error log. This is usually a file called <code>php_error_log</code> or something like that. In XAMPP, the default location of this file is <code>XAMPP/xamppfiles/logs/</code>. For other web hosting platforms, please consult the documentation or do a quick Google search (i.e. "where is the php error log in _____"). Some web hosts may provide a special interface for accessing the php error log, through ssh, cpanel, etc. Please ask them directly for help with this.
+                    </li>
+                    <li>
+                        Frontend (Javascript-related) errors: in your browser's Javascript console. This can be accessed from "Tools->Web Developer" menu in Firefox, or "More tools->Javascript Console" in Chrome. For help with other browsers, please Google "where is the javascript console in ____".
+                    </li>
+                </ul>
+            </li>
+            <li>
+                If you find a problem in any of the tutorials, let us know on the Issues page. Also, please feel free to contribute to the <a href="https://github.com/userfrosting/UserFrosting/wiki">wiki</a> if you have something relevant and useful to add.
+            </li>
+        </ul>     
+    </div>
+</div>
 {% endblock %}

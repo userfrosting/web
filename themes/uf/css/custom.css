@@ -1,24 +1,37 @@
 /* SITE WIDE */
+
+a:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 668px)  {
+    h1, .intro h1 {
+        font-size: 3.4em !important;
+    }
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+/*
 div.section:nth-child(even) {
     background-color: #eceff1;
 }
 
 div.section:last-child {
     background-color: white;
+    box-shadow: 0px 0px white;
 }
-
+*/
 nav ul li a {
-    color: black;
-    font-family: Roboto;
-    font-weight: 500;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
 }
+
+.navbar-fixed { z-index: 9999; }
 
 .active:after {
     content: '';
@@ -31,11 +44,30 @@ nav ul li a {
     top: -16px;
 }
 
+.side-nav .active:after {
+    content: '';
+    display: block;
+    background: rgba(0,0,0,0);
+    height: 0px;
+    width: 0px;
+    margin: 0 auto;
+    position: relative;
+    top: -16px;
+}
+
 /*FRONTPAGE SECTION*/
 
 .intro {
   height: 400px;
-  background-image: url('../images/background2.svg');
+/*  background-image: url('../images/background.svg');*/
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-weight: 700;
 }
 
 .intro h1 {
@@ -78,29 +110,53 @@ nav ul li a {
 
 }
 
+/* Features section */
+
+
 /* Built with Userfrosting*/
-.owl-item {
-    width: 356px;
-    margin-right: 20px;
+
+
+.hover-img  {
+    position: absolute;
+    width: 360px;
+    height: 263px;
+    opacity: 0;
+    background: rgb(255, 176, 202);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.hover-img:hover {
+    opacity: .5;
+    cursor: pointer;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.builtwith img {
+    max-width: 100%;
+}
+
+/*Help Section and Interact Page*/
+.help li, .interact li {
+    list-style-type: disc !important;
+    line-height: 1.5rem;
+    padding-top: 1.25rem;
+}
+
+li ul li {
+    margin-left: 4rem;
+}
+
+.pinku {
+    padding-bottom: .5rem;
+    border-bottom: 3px pink;
+    border-bottom-style: solid;
 }
 
 /*FOOTER*/
 
 
-/*.container-wide {
-	  margin: 0 auto;
-	  max-width: 1380px;
-	  width: 95%;
-	}
-@media #{$medium-and-up} {
-  .container-wide {
-    width: 90%;
-  }
-}
-@media #{$large-and-up} {
-  .container-wide {
-    width: 80%;
-  }
-}*/
 
 
