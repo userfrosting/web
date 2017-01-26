@@ -32,14 +32,36 @@ nav ul li a {
     font-weight: 700;
 }
 
-.btn.red.lighten-4:hover {
-    background-color: #ffebee;
+a.btn {
+     transition: all 0.5s ease!important;
+}
+
+a.btn:hover {
+    background-color: #ffebee!important;
+}
+
+nav a:hover:after {
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 1);
+    height: 2px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -16px;
+}
+
+nav a.btn:hover:after {
+    content: '';
+    display: none;
+    height: 0px;
+    width: 0;
 }
 
 .active:after {
     content: '';
     display: block;
-    background: rgba(0,0,0,.1);
+    background: rgba(255, 255, 255);
     height: 2px;
     width: 100%;
     margin: 0 auto;
