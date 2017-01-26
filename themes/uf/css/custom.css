@@ -4,12 +4,6 @@ a:hover {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 668px)  {
-    h1, .intro h1 {
-        font-size: 3.4em !important;
-    }
-}
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -70,13 +64,30 @@ h1, h2, h3, h4, h5 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h1 {
-
+h1, .intro h1 {
+    font-size: 2.4em;
+}
+    
+.intro h1 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
 }
 
-.intro h1 {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+@media only screen and (min-width: 668px)  {
+    h1, .intro h1 {
+        font-size: 3.4em;
+    }
+    
+    .intro h1 {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .container-heading {
+        position: relative;
+        top: 80px;
+    }
 }
 
 .intro h2 {
@@ -87,8 +98,6 @@ h1 {
 }
 
 .container-heading {
-    position: relative;
-    top: 80px;
     /*width: 80%;
     background-color: white;
     outline: #9c9a9a 1px solid;
@@ -114,6 +123,22 @@ h1 {
 @media only screen and (min-width:1350px) {
 
 }
+
+.frontpage {
+    padding-top: 0rem;
+}
+    
+.frontpage .carousel {
+    height: 310px;
+}
+
+
+@media only screen and (min-width:668px) {
+    .frontpage {
+        padding-top: 3rem;
+    }
+}
+
 
 /* Features section */
 
