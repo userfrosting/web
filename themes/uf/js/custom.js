@@ -1,7 +1,11 @@
   $(document).ready(function(){
     
     //Materialize mobile Nav
-    $(".button-collapse").sideNav(); 
+    $(".button-collapse").sideNav();
+    
+    //Materialize carousel      
+      $('.carousel').carousel();
+
 
     //Active Nav Li a
     var url = window.location;
@@ -29,4 +33,3 @@
 });
   
 
-  

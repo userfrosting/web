@@ -33,6 +33,10 @@ nav ul li a {
 
 .navbar-fixed { z-index: 9999; }
 
+.brand-logo {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 .active:after {
     content: '';
     display: block;
@@ -58,7 +62,7 @@ nav ul li a {
 /*FRONTPAGE SECTION*/
 
 .intro {
-  height: 400px;
+  height: auto;
 /*  background-image: url('../images/background.svg');*/
 }
 
@@ -67,11 +71,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-weight: 700;
+
 }
 
 .intro h1 {
     padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .intro h2 {
