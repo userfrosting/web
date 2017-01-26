@@ -31,6 +31,11 @@ nav ul li a {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
+.btn.red.lighten-4:hover {
+    background-color: #ffebee;
+}
+
 .active:after {
     content: '';
     display: block;
