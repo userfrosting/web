@@ -1,7 +1,8 @@
 /* SITE WIDE */
 
 .section {
-    padding-bottom: 4rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 * {
     -webkit-box-sizing: border-box;
@@ -96,8 +97,12 @@ nav a.btn:hover:after {
 
 .intro {
     height: auto;
-    background-image: url('../images/dice.jpg');
+    background-image: url('../images/background7.jpg');
     background-repeat: repeat;
+}
+
+.intro .z-depth-3  {
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0, 0, 0, 0.02),0 3px 5px -1px rgba(0,0,0,0.3);
 }
 
 h1, h2, h3, h4, h5 {
@@ -109,10 +114,9 @@ h1, .intro h1 {
 }
     
 .intro h1 {
-    padding-top: 0rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
-    font-family: 'Monoton', cursive;
+    font-family: 'Lobster', cursive;
     letter-spacing: 4px;
 }
 
@@ -185,10 +189,16 @@ h1, .intro h1 {
 .extendable {
     background-color: teal;
 }
+ .extendable h3 {
+    color: white;
+ }
 
 /* Features section */
 
 
+.features {
+    background-color: rgba(247, 247, 247, 0.61);
+}
 /* Built with Userfrosting*/
 
 
