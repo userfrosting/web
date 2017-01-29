@@ -9,16 +9,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-/*
-div.section:nth-child(even) {
-    background-color: #eceff1;
-}
 
-div.section:last-child {
-    background-color: white;
-    box-shadow: 0px 0px white;
-}
-*/
 
 /* NAV */
 a:hover {
@@ -87,7 +78,6 @@ nav a.btn:hover:after {
 }
 
 /*INTRO SECTION*/
-
    
 .intro .carousel {
     height: 310px;
@@ -97,8 +87,11 @@ nav a.btn:hover:after {
 
 .intro {
     height: auto;
-    background-image: url('../images/background/tron.png');
+    background-image: url('../images/background/tron.png')!important;
     background-repeat: no-repeat;
+    background-position:45px 45px;
+    /*background-color: #fbe5e5;*/
+    background-size: cover;
 }
 
 h1, h2, h3, h4, h5 {
@@ -112,6 +105,9 @@ h1, .intro h1 {
 .intro h1 {
     padding-bottom: 0rem;
     margin-bottom: 0rem;
+    position: relative;
+    top: 25px;
+    text-shadow: 8px 7px 9px #958cab;
 }
 
 @media only screen and (min-width: 668px)  {
@@ -119,15 +115,7 @@ h1, .intro h1 {
         font-size: 3.4em;
     }
     
-    .intro h1 {
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
     
-    .container-heading {
-        position: relative;
-        top: 80px;
-    }
 }
 
 .intro h2 {
@@ -137,32 +125,12 @@ h1, .intro h1 {
     padding-bottom: 1rem;
 }
 
-.container-heading {
-    /*width: 80%;
-    background-color: white;
-    outline: #9c9a9a 1px solid;
-    box-shadow: 6px 7px 7px 4px rgba(187, 184, 184, 0.5)*/
-}
-
-
-@media only screen and (min-width:601px) {
-
-}
-
-@media only screen and (min-width:992px) {
-
-}
-
-@media only screen and (min-width:993px) {
-
-}
-
-@media only screen and (min-width:1350px) {
-
-}
-
 
 /* FRONTPAGE SECTION */
+
+.frontpage {
+    background: linear-gradient(white, #fbe5e5); /* Standard syntax (must be last) */
+}
 
 .frontpage h4 {
     margin-top: 100px;
@@ -193,6 +161,8 @@ h1, .intro h1 {
 .features {
     background-color: rgba(247, 247, 247, 0.61);
 }
+
+
 /* Built with Userfrosting*/
 
 
@@ -219,6 +189,8 @@ h1, .intro h1 {
 }
 
 /*Help Section and Interact Page*/
+
+
 .help li, .interact li {
     list-style-type: disc !important;
     line-height: 1.5rem;
