@@ -1,9 +1,8 @@
 /* SITE WIDE */
 
-a:hover {
-    cursor: pointer;
+.section {
+    padding-bottom: 4rem;
 }
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -19,6 +18,12 @@ div.section:last-child {
     box-shadow: 0px 0px white;
 }
 */
+
+/* NAV */
+a:hover {
+    cursor: pointer;
+}
+
 nav ul li a {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -61,7 +66,7 @@ nav a.btn:hover:after {
 .active:after {
     content: '';
     display: block;
-    background: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 1);
     height: 2px;
     width: 100%;
     margin: 0 auto;
@@ -80,11 +85,19 @@ nav a.btn:hover:after {
     top: -16px;
 }
 
-/*FRONTPAGE SECTION*/
+/*INTRO SECTION*/
+
+   
+.intro .carousel {
+    height: 310px;
+    margin-top: 1rem;
+}
+
 
 .intro {
-  height: auto;
-/*  background-image: url('../images/background.svg');*/
+    height: auto;
+    background-image: url('../images/dice.jpg');
+    background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5 {
@@ -99,6 +112,8 @@ h1, .intro h1 {
     padding-top: 0rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 4px;
 }
 
 @media only screen and (min-width: 668px)  {
@@ -131,9 +146,6 @@ h1, .intro h1 {
     box-shadow: 6px 7px 7px 4px rgba(187, 184, 184, 0.5)*/
 }
 
-.frontpage h4 {
-    margin-top: 100px;
-}
 
 @media only screen and (min-width:601px) {
 
@@ -151,14 +163,16 @@ h1, .intro h1 {
 
 }
 
+
+/* FRONTPAGE SECTION */
+
+.frontpage h4 {
+    margin-top: 100px;
+}
+
 .frontpage {
     padding-top: 0rem;
 }
-    
-.frontpage .carousel {
-    height: 310px;
-}
-
 
 @media only screen and (min-width:668px) {
     .frontpage {
@@ -166,6 +180,11 @@ h1, .intro h1 {
     }
 }
 
+/* Extendable section */
+
+.extendable {
+    background-color: teal;
+}
 
 /* Features section */
 
