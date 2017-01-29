@@ -5,7 +5,6 @@
     
     //Materialize carousel      
       $('.carousel').carousel();
-      $('.carousel.carousel-slider').carousel({fullWidth: true});
 
 
     //Active Nav Li a
