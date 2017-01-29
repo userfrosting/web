@@ -97,8 +97,8 @@ nav a.btn:hover:after {
 
 .intro {
     height: auto;
-    background-image: url('../images/background7.jpg');
-    background-repeat: repeat;
+    /*background-image: url('../images/background7.jpg');
+    background-repeat: repeat;*/
 }
 
 .intro .z-depth-3  {
