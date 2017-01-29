@@ -97,12 +97,8 @@ nav a.btn:hover:after {
 
 .intro {
     height: auto;
-    /*background-image: url('../images/background7.jpg');
-    background-repeat: repeat;*/
-}
-
-.intro .z-depth-3  {
-	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0, 0, 0, 0.02),0 3px 5px -1px rgba(0,0,0,0.3);
+    background-image: url('../images/background/tron.png');
+    background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5 {
@@ -116,8 +112,6 @@ h1, .intro h1 {
 .intro h1 {
     padding-bottom: 0rem;
     margin-bottom: 0rem;
-    font-family: 'Lobster', cursive;
-    letter-spacing: 4px;
 }
 
 @media only screen and (min-width: 668px)  {
