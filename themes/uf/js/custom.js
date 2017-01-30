@@ -34,4 +34,8 @@
     $('.materialboxed').materialbox();
 });
   
-
+$(document).ready(function(){
+   $('.slick-slider').slick({
+   });
+ });
+     

@@ -250,5 +250,11 @@ li ul li {
 /*FOOTER*/
 
 
+/*slick*/
 
+/* BS*/
+.one, .two, .three { width: 100px; height:100px;}
+.one {background-color: red;}
+.two{background-color: blue;}
+.three{background-color: green;}
 
