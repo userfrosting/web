@@ -124,8 +124,6 @@ h1, .intro h1 {
     h1, .intro h1 {
         font-size: 3.4em;
     }
-    
-    
 }
 
 .intro h2 {
@@ -164,8 +162,8 @@ h1, .intro h1 {
  
  /* Better section */
  
- .better img {
-    width: 100px;
+ .better {
+    padding-top: 0px;
  }
 
 /* Features section */
