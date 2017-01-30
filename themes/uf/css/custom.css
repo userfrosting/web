@@ -55,7 +55,7 @@ nav a.btn:hover:after {
     width: 0;
 }
 
-.active:after {
+nav .active:after {
     content: '';
     display: block;
     background-color: rgba(255, 255, 255, 1);
@@ -172,7 +172,7 @@ h1, .intro h1 {
     margin-bottom: 8rem;
 }
 
-.features-developer .container {
+.features-developer {
     /*background-color: #000a08;
     background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");*/
     background-color: #ffffff;
