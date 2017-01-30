@@ -164,17 +164,36 @@ h1, .intro h1 {
  
  /* Better section */
  
+ .better img {
+    width: 100px;
+ }
 
 /* Features section */
 
 
-.features {
-    background-color: #008c8c;
-background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+.features-developer .container {
+    /*background-color: #000a08;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");*/
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+    padding: 45px;
 }
 
+.features-developer h3 {
+    color: red;
+}
 
+.feature-img, .feature-img2 {
+    text-align: center;
+}
+
+.feature-img img {
+    height: 200px;
+}
+
+.feature-img2 img {
+    height: 100px;
+}
 /* Built with Userfrosting*/
 
 
