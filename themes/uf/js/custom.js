@@ -4,7 +4,9 @@
     $(".button-collapse").sideNav();
     
     //Materialize carousel      
-      $('.carousel').carousel();
+      $('#main-carousel').carousel();
+      
+      //$('#features-carousel').carousel({fullWidth: true});
 
 
     //Active Nav Li a
