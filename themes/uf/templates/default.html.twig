@@ -68,118 +68,157 @@
     </div>
 </div>
 <div class="features-developer section">
+    <div class="row">
+        <div class="col s12">    
+            <ul class="tabs tabs-fixed-width">
+                <li class="tab col s3"><a href="#developer">
+                    <h5>
+                        Developer features
+                    </h5></a>
+                </li>
+                <li class="tab col s3"><a class="active" href="#user">
+                    <h5>
+                        User features
+                    </h5></a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="container z-depth-2">
-        <h3>
-            Developer features
-        </h3>
-        <h4>
-            write better code.
-        </h4>
-            
-        <div class="row"><!-- Begin row--><!-- Begin feature sprinkles-->
-            <div class="col s12 m4">
-                <div class="feature-img">
-                    <img src="{{ url('theme://images/modular.svg') }}">
+        <div id="developer">
+            <h4>
+                write better code.
+            </h4>
+                
+            <div class="row"><!-- Begin row--><!-- Begin feature sprinkles-->
+                <div class="col s12 m4">
+                    <div class="feature-img">
+                        <img src="{{ url('theme://images/modular.svg') }}">
+                    </div>
+                    <h5>
+                      Sprinkles
+                    </h5>
+                    <ul>
+                      <li>
+                          Incorporate, develop, and share modular themes and plugins
+                      </li>
+                    </ul>
+                    <a href="https://learn.userfrosting.com/sprinkles" class="valign">Check out the documentation</a>
+                </div><!-- End feature sprinkles-->
+                <div class="col s12 m4 offset-m4"><!-- Begin feature error-->
+                    <div class="feature-img2">
+                        <img src="{{ url('theme://images/error.svg') }}">
+                    </div>
+                    <h5>
+                       Error handler
+                    </h5>
+                    <ul>
+                      <li>
+                          Find the problem and work out the solution
+                      </li>
+                    </ul>
+                    <a href="https://learn.userfrosting.com/sprinkles" class="valign">Check out the documentation</a>
                 </div>
-                <h5>
-                  Sprinkles
-                </h5>
-                <ul>
-                  <li>
-                      Incorporate, develop, and share modular themes and plugins
-                  </li>
-                </ul>
-                <a href="https://learn.userfrosting.com/sprinkles" class="valign">Check out the documentation</a>
-            </div><!-- End feature sprinkles-->
-            <div class="col s12 m4 offset-m4"><!-- Begin feature error-->
-                <div class="feature-img2">
-                    <img src="{{ url('theme://images/error.svg') }}">
+            </div><!-- End row-->
+            <div class="row"><!-- Begin row--><!-- Begin feature asset-->
+                <div class="col s12 m4 offset-m4">
+                    <div class="feature-img2">
+                        <img src="{{ url('theme://images/diamond.svg') }}">
+                    </div>
+                    <h5>
+                       Asset manager
+                    </h5>
+                    <ul>
+                      <li>
+                           Toggle between min and production versions at the flip of a switch
+                      </li>
+                    </ul>
+                      <a href="https://learn.userfrosting.com/building-pages/assets">
+                        Read more
+                      </a>
+                </div><!-- End feature asset-->
+            </div><!-- End row-->
+            <div class="row"><!-- Begin row--><!-- Begin feature language-->
+                <div class="col s12 m4">
+                    <div class="feature-img">
+                        <img src="{{ url('theme://images/modular.svg') }}">
+                    </div>
+                    <h5>
+                      Language support
+                    </h5>
+                    <ul>
+                        <li>
+                            Internationalization allows you to translate your pages into any language
+                        </li>
+                        <li>
+                                Create a new language sprinkle, or use an existing one
+                        </li>
+                    </ul>
+                    <a href=""https://learn.userfrosting.com/building-pages/i18n">
+                        Read more
+                    </a>
+                </div><!-- End feature language-->
+                <div class="col s12 m4 offset-m4"><!-- Begin feature MVC-->
+                    <div class="feature-img2">
+                        <img src="{{ url('theme://images/error.svg') }}">
+                    </div>
+                    <h5>
+                       MVC Controller
+                    </h5>
+                    <ul>
+                      <li>
+                           Powerful routing and request/response abstractions with Slim
+                      </li>
+                    </ul>
+                    <a href="https://learn.userfrosting.com/routes-and-controllers/introduction">
+                        Check out the documentation
+                    </a>
                 </div>
-                <h5>
-                   Error handler
-                </h5>
-                <ul>
-                  <li>
-                      Find the problem and work out the solution
-                  </li>
-                </ul>
-                <a href="https://learn.userfrosting.com/sprinkles" class="valign">Check out the documentation</a>
-            </div>
-        </div><!-- End row-->
-        <div class="row"><!-- Begin row--><!-- Begin feature asset-->
-            <div class="col s12 m4 offset-m4">
-                <div class="feature-img2">
-                    <img src="{{ url('theme://images/diamond.svg') }}">
-                </div>
-                <h5>
-                   Asset manager
-                </h5>
-                <ul>
-                  <li>
-                       Toggle between min and production versions at the flip of a switch
-                  </li>
-                </ul>
-                  <a href="https://learn.userfrosting.com/building-pages/assets" class="valign">
-                    Read more
-                  </a>
-            </div><!-- End feature asset-->
-        </div><!-- End row-->
-        <div class="row"><!-- Begin row--><!-- Begin feature language-->
-            <div class="col s12 m4">
-                <div class="feature-img">
-                    <img src="{{ url('theme://images/modular.svg') }}">
-                </div>
-                <h5>
-                  Language support
-                </h5>
-                <ul>
-                    <li>
-                        Internationalization allows you to translate your pages into any language
-                    </li>
-                    <li>
-                            Create a new language sprinkle, or use an existing one
-                    </li>
-                </ul>
-                <a href=""https://learn.userfrosting.com/building-pages/i18n">
-                    Read more</a>
-            </div><!-- End feature language-->
-            <div class="col s12 m4 offset-m4"><!-- Begin feature MVC-->
-                <div class="feature-img2">
-                    <img src="{{ url('theme://images/error.svg') }}">
-                </div>
-                <h5>
-                   MVC Controller
-                </h5>
-                <ul>
-                  <li>
-                       Powerful routing and request/response abstractions with Slim
-                  </li>
-                </ul>
-                <a href="https://learn.userfrosting.com/routes-and-controllers/introduction">
-                    Check out the documentation
-                </a>
-            </div>
-        </div><!-- End row-->
-        <div class="row"><!-- Begin row--><!-- Begin feature Twig-->
-            <div class="col s12 m4 offset-m4">
-                <div class="feature-img2">
-                    <img src="{{ url('theme://images/diamond.svg') }}">
-                </div>
-                <h5>
-                   Templating
-                </h5>
-                <ul>
-                  <li>
-                       Consistent, easy-to-use templating with Twig
-                  </li>
-                </ul>
-                  <a href="http://twig.sensiolabs.org/doc/2.x/api.html">
-                    Read more on Twig's website
-                  </a>
-            </div><!-- End feature twig-->
-        </div><!-- End row-->
+            </div><!-- End row-->
+            <div class="row"><!-- Begin row--><!-- Begin feature Twig-->
+                <div class="col s12 m4 offset-m4">
+                    <div class="feature-img2">
+                        <img src="{{ url('theme://images/diamond.svg') }}">
+                    </div>
+                    <h5>
+                       Templating
+                    </h5>
+                    <ul>
+                      <li>
+                           Consistent, easy-to-use templating with Twig
+                      </li>
+                    </ul>
+                      <a href="http://twig.sensiolabs.org/doc/2.x/api.html">
+                        Read more on Twig's website
+                      </a>
+                </div><!-- End feature twig-->
+            </div><!-- End row-->
+            </div><!-- End developer-->
+        <div class="features-user section" id="user">
+            <h4>
+                User management made easy.
+            </h4>
+            <img class=""src="{{ url('theme://images/features/login.png') }}" data-caption="If enabled, users can register for new accounts automatically.">
+            <h5>
+              Login and registration
+            </h5>
+            <ul>
+              <li>
+                  Automatic registration option
+              </li>
+              <li>
+                  Require CAPTCHA option
+              </li>
+              <li>
+                  Send activation link via email
+              </li>
+              <li>
+                  Self-service forgotten password reset tool
+              </li>
+            </ul>
+        </div>  <!-- End user-->
     </div><!-- End container-->
-    <div class="row center-align">
+    <div class="row center-align"><!-- Pagination-->
         <ul class="pagination">
             <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
             <li class="active"><a href="#!">1</a></li>
@@ -189,192 +228,7 @@
         </ul>
     </div>
 </div><!-- End developer features section-->
-
-<div class="features-user section">
-    <div class="container">
-        <h3>
-            User management made easy.
-        </h3>
-        
-  <div class="carousel carousel-slider center" id="features-carousel" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item red white-text" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-  </div>
-        <div class="row">
-            <div class="col s12 m6"><!-- Begin Feature Login-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/login.png') }}" data-caption="If enabled, users can register for new accounts automatically.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    Login and registration
-                  </h4>
-                  <ul>
-                    <li>
-                        Automatic registration option
-                    </li>
-                    <li>
-                        Require CAPTCHA option
-                    </li>
-                    <li>
-                        Send activation link via email
-                    </li>
-                    <li>
-                        Self-service forgotten password reset tool
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-            
-            <div class="col s12 m6"><!-- Begin Feature Manage Users-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/users.png') }}" data-caption="Manage users, including basic create/update/delete, issue password resets, and managing user roles.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    Manage Users
-                  </h4>
-                  <ul>
-                    <li>
-                        Create new users
-                    </li>
-                    <li>
-                        Edit existing users
-                    </li>
-                    <li>
-                        Enable, disable, edit, activate, and delete users
-                    </li>
-                    <li>
-                        Issue password reset emails for users
-                    </li>
-                    <li>
-                        Manage user permissions through their roles
-                    </li>
-                    <li>
-                        Export any table view to a CSV file
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-            
-            <div class="col s12 m6"><!-- Begin Feature Permissions & Groups-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/permissions.png') }}" data-caption="Create complex permissions, and assign them to users through roles.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    Roles and Permissions
-                  </h4>
-                  <ul>
-                    <li>
-                        Define fine-grained permissions with programmatic conditions
-                    </li>
-                    <li>
-                        Aggregate permissions into roles
-                    </li>
-                    <li>
-                       Assign users to one or more roles
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-            
-            <div class="col s12 m6"><!-- Begin Feature Dashboard-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed"src="{{ url('theme://images/features/dashboard-admin.png') }}" data-caption="Users can quickly access important information and actions.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    AdminLTE Theme
-                  </h4>
-                  <ul>
-                    <li>
-                        Ships with Bootstrap and the wildly popular AdminLTE theme, fully integrated out-of-the-box
-                    </li>
-                    <li>
-                        Create custom dashboards
-                    </li>
-                    <li>
-                        Sort tables & create charts
-                    </li>
-                    <li>
-                        Customize to your own theme using the Sprinkle system
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-
-            <div class="col s12 m6"><!-- Begin Feature Activity-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed" src="{{ url('theme://images/features/activity.png') }}" data-caption="Monitor user activity.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    Monitor User Activity
-                  </h4>
-                  <ul>
-                    <li>
-                        Know what your users are doing
-                    </li>
-                    <li>
-                        Optionally log IP addresses to detect suspicious activity
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-            <div class="col s12 m6"><!-- Begin Feature Site Settings-->
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed" src="{{ url('theme://images/features/public.png') }}" data-caption="Create web pages and REST apis just as easily.">
-                </div>
-                <div class="card-content">
-                  <h4>
-                    A Fully Functional Web Framework
-                  </h4>
-                  <ul>
-                    <li>
-                        Implement any web application
-                    </li>
-                    <li>
-                        Create any page, public or private
-                    </li>
-                    <li>
-                        RESTful APIs that return JSON or XML
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End Feature-->
-        </div>
-    </div><!-- End container-->
-</div><!-- End section-->
+             
 <div class="contributors section">
     <div class="container">
         <h3>
