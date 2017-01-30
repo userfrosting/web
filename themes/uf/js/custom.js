@@ -15,7 +15,7 @@
         // Strip out everything after the hash, if present
         var url_head = url.href.split('#', 1)[0];
         return this.href ==url_head;  // || url.href.indexOf(this.href) == 0   // Include this if you want to color all parent URIs as well
-    }).addClass('active').parent().parent().addClass('in').parent();
+    }).addClass('nav-active').parent().parent().addClass('in').parent();
     if (element.is('li')) {
         element.addClass('active');
     }

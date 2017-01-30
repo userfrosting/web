@@ -55,7 +55,7 @@ nav a.btn:hover:after {
     width: 0;
 }
 
-nav .active:after {
+nav .nav-active:after {
     content: '';
     display: block;
     background-color: rgba(255, 255, 255, 1);
@@ -66,7 +66,7 @@ nav .active:after {
     top: -16px;
 }
 
-.side-nav .active:after {
+.side-nav .nav-active:after {
     content: '';
     display: block;
     background: rgba(0,0,0,0);
@@ -168,6 +168,9 @@ h1, .intro h1 {
 
 /* Features section */
 
+.features-developer .tabs, .features-user .tabs {
+    background-color: transparent;
+}
 .features-developer h4 {
     margin-bottom: 8rem;
 }
