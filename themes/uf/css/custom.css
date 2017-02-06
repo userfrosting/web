@@ -79,10 +79,6 @@ nav .nav-active:after {
 
 /*INTRO SECTION*/
 
-.intro .row img {
-    max-height: 300px;
-    overflow: hidden;
-}
 .intro .carousel {
     height: 310px;
     margin-top: 1rem;
