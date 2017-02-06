@@ -81,10 +81,13 @@ nav .nav-active:after {
 
 .intro {
     background-color: #f7f7f7;
+    background: linear-gradient(#fff, #f7f7f7);
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
 
 h1, h2, h3, h4, h5 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -114,8 +117,11 @@ h1, {
 /* FRONTPAGE SECTION */
 
 .frontpage {
-    padding: 25px 100px 75px 100px;
+    padding: 0px 100px 75px 100px;
+    background-color: #f7f7f7
 }
+
+
 
 
 /* Extendable section */
