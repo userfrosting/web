@@ -3,34 +3,35 @@
 {% block content %}
 <div class="joined">
     <div class="overlay-header">
-        <div class="intro section">
-            <div class="">
-                <div class="row">
-                    <div class="col s12">
-                          <div class="carousel" id="main-carousel">
-                            <a class="carousel-item" href="#one!"><img src="{{ url('theme://images/frontpage/activity.png') }}"></a>
-                            <a class="carousel-item" href="#two!"><img src="{{ url('theme://images/features/adminlte.png') }}"></a>
-                            <a class="carousel-item" href="#three!"><img src="{{ url('theme://images/features/dashboard-admin.png') }}"></a>
-                            <a class="carousel-item" href="#four!"><img src="{{ url('theme://images/frontpage/login.png') }}"></a>
-                            <a class="carousel-item" href="#five!"><img src="{{ url('theme://images/frontpage/permissions.png') }}"></a>
-                          </div>
-                    </div>
-                </div>
+        
+    </div>
+    <div class="intro">
+        <div class="container row" style="padding-top: 50px; padding-bottom: 25px;">
+            <div class="col m3">
+                 <img src="{{ url('theme://images/features/dashboard-admin.png') }}" class="responsive-img">
+             
+             </div>
+             <div class="col m4 offset-m1">
+                 <img src="{{ url('theme://images/frontpage/login.png') }}" class="responsive-img">
+             </div>
+             <div class="col m3 offset-m1">
+                 <img src="{{ url('theme://images/frontpage/permissions.png') }}" class="responsive-img">
+             </div>
+         </div>
                 <h1 class="center-align">
-                    Modern user management for php.
-                </h1>
+            Modern user management for php.
+        </h1>
+    </div>
+    <div class="frontpage">
+        <div class="container">  
+            <div class="col s12 m6">
+                    <p class="flow-text">
+                        Chances are you're here because you have a great idea for a user-oriented website.
+                        Whether it's a private forum for your WoW guild, an employee management system for your small business, <em> Userfrosting delivers</em>.
+                    </p>
             </div>
         </div>
-        <div class="frontpage section">
-            <div class="container">  
-                <div class="col s12 m6">
-                        <p class="flow-text">
-                            Chances are you're here because you have a great idea for a user-oriented website.
-                            Whether it's a private forum for your WoW guild, an employee management system for your small business, <em> Userfrosting delivers</em>.
-                        </p>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 </div>
 <div class="extendable section">
@@ -48,30 +49,22 @@
         </p>
     </div>
 </div>
-<div class="features-developer section">
-    <div class="row">
-        <div class="col s12">    
-            <ul class="tabs tabs-fixed-width">
-                <li class="tab col s3"><a href="#developer">
-                    <h5>
-                        Developer features
-                    </h5></a>
-                </li>
-                <li class="tab col s3"><a href="#user">
-                    <h5>
-                        User features
-                    </h5></a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="better section">
     <div class="container">
-        <div id="developer">
-            <h4>
-                write better code.
-            </h4>
+        <h3>  
+        Perfect PHP.
+        </h3>
+        <p class="flow-text">
+             UserFrosting is meant for individuals who have some background in programming, but are not familiar with all of the modern tools available to make development in PHP faster, and to make your code better structured and easier to manage. By starting with UserFrosting, you will be comfortably introduced to Composer (the dependency manager), MVC, the front-controller pattern, and RESTful URLs.
+        </p>
+    </div>
+</div>  
+<div class="features-developer section">
+    <div class="container">        
+        <h4>
+            Features
+        </h4>
             <div class="row"><!-- Begin row--><!-- Begin feature sprinkles-->
-                <div class="slick-slider">
                     <div class="col s12 m4">
                         <div class="feature-img">
                             <img src="{{ url('theme://images/modular.svg') }}">
@@ -116,12 +109,8 @@
                             Read more
                           </a>
                     </div><!-- End feature asset-->
-                </div><!-- End slider-->
             </div><!-- End row-->
-            <div class="row"><!-- Begin row-->
-                
-            </div><!-- End row-->
-            <!--<div class="row">
+            <div class="row">
                 <div class="col s12 m4">
                     <div class="feature-img">
                         <img src="{{ url('theme://images/modular.svg') }}">
@@ -141,7 +130,7 @@
                         Read more
                     </a>
                 </div>
-                <div class="col s12 m4 offset-m4">
+                <div class="col s12 m4">
                     <div class="feature-img2">
                         <img src="{{ url('theme://images/error.svg') }}">
                     </div>
@@ -158,7 +147,7 @@
                     </a>
                 </div>
             </div>
-                <div class="col s12 m4 offset-m4">
+                <div class="col s12 m4">
                     <div class="feature-img2">
                         <img src="{{ url('theme://images/diamond.svg') }}">
                     </div>
@@ -175,51 +164,9 @@
                       </a>
                 </div><!-- End feature twig-->
             </div><!-- End row-->
-
-        <div class="features-user" id="user">
-            <h4 class="right-align">
-                User management made easy.
-            </h4>
-            <img class=""src="{{ url('theme://images/features/login.png') }}" style="width: 500px;" data-caption="If enabled, users can register for new accounts automatically.">
-            <h5>
-              Login and registration
-            </h5>
-            <ul>
-              <li>
-                  Automatic registration option
-              </li>
-              <li>
-                  Require CAPTCHA option
-              </li>
-              <li>
-                  Send activation link via email
-              </li>
-              <li>
-                  Self-service forgotten password reset tool
-              </li>
-            </ul>
-        </div>  <!-- End user-->
     </div><!-- End container-->
-    <div class="row center-align"><!-- Pagination-->
-        <ul class="pagination">
-            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-            <li class="active"><a href="#!">1</a></li>
-            <li class="waves-effect"><a href="#!">2</a></li>
-            <li class="waves-effect"><a href="#!">3</a></li>
-            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-        </ul>
-    </div>
-</div><!-- End developer features section-->
-<div class="better section">
-    <div class="container">
-        <h3>  
-        Perfect PHP.
-        </h3>
-        <p class="flow-text">
-             UserFrosting is meant for individuals who have some background in programming, but are not familiar with all of the modern tools available to make development in PHP faster, and to make your code better structured and easier to manage. By starting with UserFrosting, you will be comfortably introduced to Composer (the dependency manager), MVC, the front-controller pattern, and RESTful URLs.
-        </p>
-    </div>
-</div>        
+</div><!-- End features section-->
+      
 <div class="contributors section">
     <div class="container">
         <h3>

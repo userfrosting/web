@@ -78,7 +78,11 @@ nav .nav-active:after {
 }
 
 /*INTRO SECTION*/
-   
+
+.intro .row img {
+    max-height: 300px;
+    overflow: hidden;
+}
 .intro .carousel {
     height: 310px;
     margin-top: 1rem;
@@ -93,14 +97,14 @@ nav .nav-active:after {
 }
 
 .joined {
-    background-image: url('../images/background/tron.png')!important;
-    background-repeat: no-repeat;
-    background-position:-151px 125px;
-    background-size: cover;
+
 }
 
 .intro {
+    background-color: #f7f7f7;
     height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -117,7 +121,10 @@ h1, .intro h1 {
     position: relative;
     top: 25px;
     /*text-shadow: 8px 7px 9px #958cab;*/
-    font-family: 'Contrail One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 668px)  {
@@ -146,7 +153,7 @@ h1, .intro h1 {
 }
 
 .frontpage {
-    padding: 172px 100px 120px 100px;
+    padding: 25px 100px 75px 100px;
 }
 
 
@@ -174,10 +181,6 @@ h1, .intro h1 {
 }
 
 .features-developer {
-    /*background-color: #000a08;
-    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");*/
-    background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
     padding: 45px;
 }
 
