@@ -1,31 +1,34 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-<div class="joined">
-    <div class="overlay-header">
-        
-    </div>
+
     <div class="intro">
-        <div class="container row" style="padding-top: 50px; padding-bottom: 25px;">
-             <div class="col m6 offset-m3">
-                 <img src="{{ url('theme://images/frontpage/laptop1.png') }}" class="responsive-img">
+        <div class="row" style="padding-top: 50px; padding-bottom: 25px;">
+             <div class="center-align">
+                 <img src="{{ url('theme://images/frontpage/laptop1.png') }}" class="responsive-img" style="max-height: 300px">
              </div>
          </div>
-                <h1 class="center-align">
+        <h1 class="center-align">
             Modern user management for php.
         </h1>
+        <div class="center-align" style="padding-top: 25px;">
+            <a class="waves-effect waves-light btn" style="margin-right: 25px">Install</a>
+            <a class="waves-effect waves-light btn" style="margin-right: 25px">Demo</a>
+            <a class="waves-effect waves-light btn">Github</a>
+        </div>
     </div>
     <div class="frontpage">
-        <div class="container">  
+        <div class="container">
             <div class="col s12 m6">
                     <p class="flow-text">
                         Chances are you're here because you have a great idea for a user-oriented website.
                         Whether it's a private forum for your WoW guild, an employee management system for your small business, <em> Userfrosting delivers</em>.
                     </p>
             </div>
+            
         </div>
     </div>
-    </div>
+
 </div>
 <div class="extendable section">
     <div class="container">
