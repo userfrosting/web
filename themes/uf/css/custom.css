@@ -79,19 +79,6 @@ nav .nav-active:after {
 
 /*INTRO SECTION*/
 
-.intro .carousel {
-    height: 310px;
-    margin-top: 1rem;
-}
-
-.intro .carousel-item {
-    width: 310px
-}
-
-.intro .carousel img {
-    box-shadow: 4px 11px 20px 3px rgba(185, 177, 177, 0.4)!important;
-}
-
 .joined {
 
 }
@@ -142,10 +129,6 @@ h1, .intro h1 {
 .overlay-header {
     background: linear-gradient( rgba(0,0,0,0), rgba(255, 255, 255, .9) );
     z-index: 2;
-}
-
-.frontpage h4 {
-    margin-top: 100px;
 }
 
 .frontpage {
