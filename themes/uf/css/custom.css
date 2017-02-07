@@ -148,9 +148,9 @@ h1, {
 }
 
 .features .dev img {
-    height: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .features .user img {
