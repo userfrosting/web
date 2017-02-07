@@ -1,20 +1,6 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-
-    <div class="intro">
-        <div class="center-align" style="padding-top: 50px; padding-bottom: 25px;">
-            <img src="{{ url('theme://images/frontpage/laptop1.png') }}" class="responsive-img" style="max-height: 300px">
-        </div>
-        <h1 class="center-align">
-            Modern user management for php.
-        </h1>
-        <div class="center-align" style="padding-top: 50px;">
-            <a class="waves-effect waves-light btn" style="margin-right: 25px">Install</a>
-            <a class="waves-effect waves-light btn" style="margin-right: 25px">Demo</a>
-            <a class="waves-effect waves-light btn">Github</a>
-        </div>
-    </div>
     
 <div class="features section">
         <h2 style="margin-bottom: 75px;" class="center-align">
@@ -135,65 +121,13 @@
                 </div><!-- End featuer separation-->
         </div><!-- End row-->
         <div class="center align" style="padding-top:50px; padding-bottom: 50px; background-color: #f7f7f7;">
-            <h5><a class="btn-large">See our full list of features</a></h5>
+        <div class="center-align" style="padding-top: 50px;">
+            <a class="waves-effect waves-light btn" style="margin-right: 25px">Install</a>
+            <a class="waves-effect waves-light btn" style="margin-right: 25px">Demo</a>
+            <a class="waves-effect waves-light btn">Github</a>
+        </div>
         </div>
 </div><!-- End features section-->
-   <div class="builtwith section">
-    <div class="container">
-        <h3 class="white-text">
-            Built with Userfrosting
-        </h3>
-        <div class="slick-slider">
-            <div class="row">
-                <div class="col s6">
-                    <a href="http://artsho.ws/">
-                        <div class="hover-img">
-                        </div>
-                    </a>
-                    <img src="{{ url('theme://images/gallery/artsho.png') }}" class="img-responsive hc">
-                </div>
-                <div class="col s6">
-                    <a href="http://safetymessaging.net/">
-                        <div class="hover-img">
-                        </div>
-                    </a>
-                    <img src="{{ url('theme://images/gallery/safetymessaging.jpg') }}">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s6">
-                    <a href="https://bloomingtontutors.com/">
-                        <div class="hover-img">
-                        </div>
-                    </a>
-                    <img src="{{ url('theme://images/gallery/bloomingtontutors.jpg') }}">
-                </div>
-                <div class="col s6">
-                    <a href="https://collegeparktutors.com">
-                        <div class="hover-img">
-                        </div>
-                    </a>
-                    <img src="{{ url('theme://images/gallery/collegeparktutors.jpg') }}">
-                </div>
-            </div>
-            <div class="row">           
-                <div class="col s6">
-                    <a href="http://conjoint.online/">
-                        <div class="hover-img">
-                        </div>
-                    </a>
-                    <img src="{{ url('theme://images/gallery/conjointly.jpg') }}">
-                </div>
-                <div class="col m6 s6">
-                    <a href="https://quizevolved.com/">
-                        <div class="hover-img">
-                        </div>
-                    </a>
-                    <img src="{{ url('theme://images/gallery/quizevolved.jpg') }}">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>   
+   
 
 {% endblock %}

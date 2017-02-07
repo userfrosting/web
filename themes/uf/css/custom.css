@@ -244,6 +244,16 @@ li ul li {
 
 /*FOOTER*/
 
+footer img {
+    max-width: 100px;
+    text-align: center;
+}
 
+footer .footer-alt li {
+     list-style-type: disc !important;
+}
 
+.footer-copyright a {
+ color: white;   
+}
 
