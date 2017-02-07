@@ -81,7 +81,7 @@ nav .nav-active:after {
 
 .intro {
     background-color: #f7f7f7;
-    background: linear-gradient(#fff, #f7f7f7);
+    background: linear-gradient(#f7f7f7, #fff);
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -118,7 +118,7 @@ h1, {
 
 .frontpage {
     padding: 0px 100px 75px 100px;
-    background-color: #f7f7f7
+    background-color: #fff
 }
 
 
@@ -134,21 +134,23 @@ h1, {
  }
  
  /* Better section */
- 
+
+.better {
+    background-color: #f9f9f9;
+}
 
 
 /* Features section */
 
+.features {
+
+}
 .features .col {
    border-right: 1px solid #eaeaea;
    border-bottom: 1px solid #c2c2c2;
 
    padding-top: 50px;
    height: 440px;
-}
-
-.features .dev img {
-   
 }
 
 .features .user img {
@@ -172,27 +174,6 @@ h1, {
 /* Built with Userfrosting*/
 
 
-.hover-img  {
-    position: absolute;
-    width: 360px;
-    height: 263px;
-    opacity: 0;
-    background: rgb(255, 176, 202);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-.hover-img:hover {
-    opacity: .5;
-    cursor: pointer;
-    max-width: 100%;
-    overflow: auto;
-}
-
-.builtwith img {
-    max-width: 100%;
-}
 
 /* Contributors */
 
