@@ -1,7 +1,7 @@
 /* SITE WIDE */
 
 .section {
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 100px;
 }
 * {
@@ -131,7 +131,6 @@ h1, {
 }
  .extendable h3 {
     color: white;
-    margin-top: 6rem;
  }
  
  /* Better section */
@@ -140,20 +139,38 @@ h1, {
 
 /* Features section */
 
+.features .col {
+   border-right: 1px solid #eaeaea;
+   border-bottom: 1px solid #c2c2c2;
 
-.feature-img2 {
-    text-align: center;
+   padding-top: 50px;
+   height: 440px;
 }
 
-.feature-img img {
+.features .dev img {
     height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.feature-img2 img {
-    height: 100px;
+.features .user img {
+    height: 150px;
 }
 
+.features .user {
+    background-color: #f9f9f9;
+}
 
+.features h6 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #70b4d5;
+}
+
+.features p {
+    padding-right: 5%;
+    padding-left: 5%;
+}
 /* Built with Userfrosting*/
 
 
