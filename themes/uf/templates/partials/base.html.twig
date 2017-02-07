@@ -18,12 +18,15 @@
         {% do assets.addCss('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i', 102) %}
         {% do assets.addCss('theme://css/materialize.min.css', 100) %}
         {% do assets.addCss('theme://css/slick.css', 100) %}
+        {% do assets.addCss('theme://css/slick-theme.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/custom.css', 98) %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
+        <script src="https://use.typekit.net/eal2qmw.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
         {% do assets.addJs('jquery', 100) %}
         {% do assets.addJs('theme://js/slick.min.js', 98) %}
         {% do assets.addJs('theme://js/materialize.min.js', 99) %}
