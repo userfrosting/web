@@ -173,10 +173,15 @@ h1, {
 }
 /* Built with Userfrosting*/
 
-
+.builtwith {
+    background-color: teal;
+}
 
 /* Contributors */
 
+.contributors .circle {
+    background-color: pink;
+}
 .contributors img {
     max-width: 50px;
 }
