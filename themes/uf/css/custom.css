@@ -257,3 +257,6 @@ footer .footer-alt li {
  color: white;   
 }
 
+footer.page-footer {
+    margin-top: 0px;
+}
