@@ -264,7 +264,7 @@ li ul li {
 
 .features-page-intro {
     padding-top: 75px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     background: linear-gradient(#fff, rgba(243, 243, 243, 0.39));
 }
 
@@ -297,6 +297,17 @@ li ul li {
     margin-bottom: 75px;
 }
 
+.features-page-intro li a {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+}
+
+.features-page-intro ul {
+    text-align: center;
+    margin-top: 75px;
+}
 
 /*FOOTER*/
 
