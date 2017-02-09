@@ -19,6 +19,7 @@ outline: none;
 
 
 /* NAV */
+
 a:hover {
     cursor: pointer;
 }
@@ -38,24 +39,6 @@ nav ul li a {
 
 a.btn {
      transition: all 0.5s ease!important;
-}
-
-nav a:hover:after {
-    content: '';
-    display: block;
-    background: rgba(255, 255, 255, 1);
-    height: 2px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    top: -16px;
-}
-
-nav a.btn:hover:after {
-    content: '';
-    display: none;
-    height: 0px;
-    width: 0;
 }
 
 nav .nav-active:after {
@@ -261,7 +244,7 @@ li ul li {
 .features-page-intro {
     padding-top: 75px;
     padding-bottom: 25px;
-    background: linear-gradient(#fff, rgba(243, 243, 243, 0.39));
+    background-color: rgb(238, 238, 238));
 }
 
 .features-page-intro h1 {
@@ -293,6 +276,10 @@ li ul li {
     margin-bottom: 75px;
 }
 
+.features-page h3 {
+    text-transform: none;
+}
+
 .features-page-intro li a {
     font-size: 26px;
     text-transform: uppercase;
@@ -303,6 +290,14 @@ li ul li {
 .features-page-intro ul {
     text-align: center;
     margin-top: 75px;
+}
+
+.features-page:last-child {
+    padding-bottom: 100px;
+}
+
+.features-page p {
+    padding-bottom: 50px;
 }
 
 /*FOOTER*/
