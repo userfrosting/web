@@ -1,7 +1,5 @@
-title: Grav
+title: UserFrosting
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Alex Weissman
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
