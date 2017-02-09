@@ -79,7 +79,6 @@ h1, h2, h3 {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Raleway', sans-serif;;
     font-size: 2.4em;
-    font-weight: 200;
     text-transform: uppercase;
 }
 
@@ -106,8 +105,6 @@ h1, h2, h3 {
     padding: 0px 100px 75px 100px;
     background-color: #fff
 }
-
-
 
 
 /* Extendable section */
@@ -169,7 +166,7 @@ h1, h2, h3 {
 }
 /* Built with Userfrosting*/
 
-/*caption stuff */
+/*Captions  */
 
 .slide {
   position: relative;
@@ -185,7 +182,7 @@ h1, h2, h3 {
   padding-bottom: 12px;
 }
 
-/*end caption stuff*/
+/*End captions */
 
 
 .builtwith {
@@ -204,30 +201,10 @@ h1, h2, h3 {
 }
 
 .contributors .circle {
-    background-color: pink;
+    background-color: #ee6e73;
 }
 .contributors img {
     max-width: 50px;
-}
-
-
-/*Help Section and Interact Page*/
-
-
-.help li, .interact li {
-    list-style-type: disc !important;
-    line-height: 1.5rem;
-    padding-top: 1.25rem;
-}
-
-li ul li {
-    margin-left: 4rem;
-}
-
-.pinku {
-    padding-bottom: .5rem;
-    border-bottom: 3px pink;
-    border-bottom-style: solid;
 }
 
 
@@ -462,9 +439,3 @@ footer.page-footer {
 }
 
 
-/*font-family: 'Raleway', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Julius Sans One', sans-serif;
-*/
