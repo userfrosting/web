@@ -1,34 +1,41 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-<div class="features-page-intro">
+    <div class="features-page-intro">
         <div class="container">
-                <h1>
-                        Our full catalogue of features
-                </h1>
-                 <img src="{{ url('theme://images/features/diamond.svg') }}">
-                <h2>
-                        Made for you
-                </h2>
-                <ul>
-                        <li>
-                                <a href="#">
-                                        #Developer Features
-                                 </a>
-                        </li>
-                        <li>
-                                <a href="#">
-                                        #User Features
-                                </a>
-                        </li>
-                </ul>
+            <h1>
+                Our full catalogue of features
+            </h1>
+             <img src="{{ url('theme://images/features/diamond.svg') }}">
+            <h2>
+                Made for you
+            </h2>
+            <ul>
+                <li>
+                    <a href="#developer-features">
+                        #Developer Features
+                     </a>
+                </li>
+                <li>
+                    <a href="#user-features">
+                        #User Features
+                    </a>
+                </li>
+            </ul>
         </div>
-</div>
-<div class="features-page">
+    </div>
+    <div class="features-page">
         <div class="container">
-                {{page.content}}
-        </div>
-</div><!-- End features section-->
-   
+            <h1 id="developer-features">
+                Developer Features
+            </h1>
+            {{page.content}}
 
+            <h1 id="user-features">
+                User Features
+            </h1>
+            
+            
+        </div>
+    </div><!-- End features section-->
 {% endblock %}

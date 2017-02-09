@@ -1,4 +1,16 @@
-# Developer Features
+---
+title: Features
+content:
+    items: '@self.modular'
+    order:
+        by: default
+        dir: asc
+        custom:
+            - _developer-features
+            - _user-features
+---
+
+
 
 ## All the pieces you need to quickly flesh out your application.
 
@@ -38,7 +50,7 @@ Throw an exception, then use a custom exception handler to send detailed error i
 ### Logging
 UserFrosting uses Monolog, which can send detailed logging information to the database, log files, or even to email!
 
-# User Features
+
 
 ## No need to reinvent the wheel - everything you need for a user-centered application has already been implemented!
 
