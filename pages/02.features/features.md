@@ -41,7 +41,6 @@ _Send detailed error information to logs, while presenting a useful message for 
 ### Logging
 _Use Monolog to send detailed logging information to the database, log files, or even to email!_
 
-
 # User Features
 ## What user features are
 
