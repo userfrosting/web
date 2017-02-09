@@ -1,5 +1,6 @@
 # Developer Features
-## What developer features are
+
+## All the pieces you need to quickly flesh out your application.
 
 ### Modern specs
 90's fashion might be back in style, but 90's development practices are not.  Our detailed installation guide painlessly introduces you to the modern developer's toolkit.
@@ -38,7 +39,8 @@ Throw an exception, then use a custom exception handler to send detailed error i
 UserFrosting uses Monolog, which can send detailed logging information to the database, log files, or even to email!
 
 # User Features
-## What user features are
+
+## No need to reinvent the wheel - everything you need for a user-centered application has already been implemented!
 
 ### Fully functional sign-in system
 Works out of the box.
