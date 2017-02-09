@@ -6,7 +6,7 @@
             <h1>
                 Our full catalogue of features
             </h1>
-             <img src="{{ url('theme://images/features/diamond.svg') }}">
+             <img src="{{ url('theme://images/features/diamond.svg') }}" class="center-align" style="margin-top: 50px;">
             <h2>
                 Made for you
             </h2>
@@ -26,16 +26,9 @@
     </div>
     <div class="features-page">
         <div class="container">
-            <h1 id="developer-features">
-                Developer Features
-            </h1>
-            {{page.content}}
-
-            <h1 id="user-features">
-                User Features
-            </h1>
-            
-            
+            {% for child in page.collection() %}
+                {{ child.content }}
+            {% endfor %}
         </div>
     </div><!-- End features section-->
 {% endblock %}
