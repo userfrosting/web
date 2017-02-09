@@ -25,10 +25,10 @@
         </div>
     </div>
     <div class="features-page">
-        <div class="container">
+        
             {% for child in page.collection() %}
                 {{ child.content }}
             {% endfor %}
-        </div>
+
     </div><!-- End features section-->
 {% endblock %}

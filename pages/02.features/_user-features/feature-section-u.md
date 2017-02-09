@@ -2,7 +2,7 @@
 title: User Features
 ---
 
-## No need to reinvent the wheel - everything you need for a user-centered application has already been implemented!
+## No need to reinvent the wheel
 
 ### Fully functional sign-in system
 Works out of the box.
