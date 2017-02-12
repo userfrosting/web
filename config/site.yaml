@@ -2,4 +2,15 @@ title: UserFrosting
 author:
   name: Alex Weissman
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'UserFrosting is a web framework and user management application for PHP.'
+
+redirects:
+    /gallery: 'http://v3.userfrosting.com/gallery'
+    /installation: 'https://learn.userfrosting.com/basics/installation'
+    /troubleshooting: 'https://learn.userfrosting.com/basics/getting-help'
+    /navigating: 'https://learn.userfrosting.com/basics/overview'
+    /tutorials: 'https://learn.userfrosting.com'
+    /components: '/features'
+    /security: 'https://learn.userfrosting.com/security'
+    /plugins: 'https://learn.userfrosting.com/sprinkles'    
+    /api/namespace-UserFrosting.html: 'http://api.userfrosting.com'
