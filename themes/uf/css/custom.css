@@ -106,10 +106,15 @@ h1, h2, h3 {
 /* FRONTPAGE SECTION */
 
 .frontpage {
-    padding: 0px 100px 75px 100px;
-    background-color: #fff
+    background-color: #fff;
+    padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 992px)  {
+    .frontpage {
+        padding: 0px 100px 75px 100px;
+    }
+}
 
 /* Extendable section */
 
@@ -440,6 +445,22 @@ footer .footer-alt li {
 
 footer.page-footer {
     margin-top: 0px;
+}
+
+footer .col:nth-of-type(1) {
+    padding-right: 50px;
+}
+
+footer .col:nth-of-type(2) {
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 415px) {
+footer.page-footer .footer-copyright {
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: 1.25em;
+    }
 }
 
 
