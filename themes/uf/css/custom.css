@@ -102,6 +102,11 @@ h1, h2, h3 {
     }
 }
 
+@media only screen and (max-width: 420px)  {
+    .intro a:nth-of-type(3) {
+        margin-top: 15px;
+    }
+}
 
 /* FRONTPAGE SECTION */
 
@@ -144,9 +149,14 @@ h1, h2, h3 {
 .features .col {
    border-right: 1px solid #eaeaea;
    border-bottom: 1px solid #c2c2c2;
-
    padding-top: 50px;
    height: 440px;
+}
+
+@media only screen and (max-width: 600px) {
+    .features .col:nth-of-type(1) {
+        padding-top: 0px;    
+    }
 }
 
 .features .last {
@@ -162,6 +172,15 @@ h1, h2, h3 {
     background: linear-gradient(#fff, #f9f9f9);
 }
 
+.features h2 {
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+    .features h2 {
+        margin-bottom: 75px;
+    }
+}
 
 .features h6 {
     padding-top: 25px;
@@ -173,6 +192,13 @@ h1, h2, h3 {
     padding-right: 5%;
     padding-left: 5%;
 }
+
+@media only screen and (max-width: 434px) {
+    .features .btn-large {
+    font-size: 1.1rem;
+    }
+}
+
 /* Built with Userfrosting*/
 
 /*Captions  */
