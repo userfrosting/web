@@ -17,6 +17,10 @@ outline: none;
     box-sizing: border-box;
 }
 
+.center-align {
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
 
 /* NAV */
 
