@@ -5,7 +5,9 @@ metadata:
     description: 'UserFrosting is a web framework and user management application for PHP.'
 
 redirects:
-    /gallery: 'http://v3.userfrosting.com/gallery'
+    /authors: '/'
+    /demo: 'https://demo.userfrosting.com'
+    /gallery: '/'
     /installation: 'https://learn.userfrosting.com/basics/installation'
     /troubleshooting: 'https://learn.userfrosting.com/basics/getting-help'
     /navigating: 'https://learn.userfrosting.com/basics/overview'
