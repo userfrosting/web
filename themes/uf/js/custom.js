@@ -37,6 +37,8 @@
 $(document).ready(function(){
    $('.slick-slider').slick({
       variableWidth: true,
+      centerMode: true,
    });
  });
+ 
  

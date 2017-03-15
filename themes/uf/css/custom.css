@@ -11,6 +11,28 @@ outline: none;
     padding-top: 75px;
     padding-bottom: 100px;
 }
+
+.padding-top {
+    padding-top: 50px;   
+}
+
+@media only screen and (max-width: 415px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    h3 {
+        font-size: 1.8em !important;
+    }
+    
+    .padding-top {
+        padding-top: 20px;
+    }
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -73,8 +95,6 @@ nav .nav-active:after {
     background-color: #f7f7f7;
     background: linear-gradient(#f7f7f7, #fff);
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 
@@ -87,24 +107,49 @@ h1, h2, h3 {
 }
 
 .intro h1 {
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
     margin-bottom: 0rem;
-    /*text-shadow: 8px 7px 9px #958cab;*/
-    /*font-family: 'Montserrat', sans-serif;
-    font-weight: 700;*/
-    font-size: 36px;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 900;
     text-transform: uppercase;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-@media only screen and (min-width: 668px)  {
+@media only screen and (min-width: 420px)  {
+    h1, h2, .intro h1 {
+        padding-bottom: 0rem;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    
+    .intro {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1160px)  {
     h1, h2, .intro h1 {
         font-size: 3.4em;
     }
 }
 
 @media only screen and (max-width: 420px)  {
-    .intro a:nth-of-type(3) {
-        margin-top: 15px;
+    .intro .btn {
+        display: block;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .intro .btn:nth-of-type(3) {
+        margin-bottom: 0px;
+    }
+    
+    .intro img {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }
 
@@ -112,7 +157,13 @@ h1, h2, h3 {
 
 .frontpage {
     background-color: #fff;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 420px)  {
+    .frontpage {
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 992px)  {
@@ -146,16 +197,32 @@ h1, h2, h3 {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
 .features .col {
-   border-right: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
    border-bottom: 1px solid #c2c2c2;
    padding-top: 50px;
+   padding-bottom: 0px;
    height: 440px;
 }
 
 @media only screen and (max-width: 600px) {
     .features .col:nth-of-type(1) {
         padding-top: 0px;    
+    }
+    
+    .features .col {
+        border-right: 0px;
+        border-top: 0px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .features i {
+        padding-top: 85px;
     }
 }
 
@@ -169,7 +236,7 @@ h1, h2, h3 {
 
 
 .features .user {
-    background: linear-gradient(#fff, #f9f9f9);
+    background: #f9f9f9;
 }
 
 .features h2 {
@@ -195,7 +262,7 @@ h1, h2, h3 {
 
 @media only screen and (max-width: 434px) {
     .features .btn-large {
-    font-size: 1.1rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -227,6 +294,19 @@ h1, h2, h3 {
 .slick-slider .slide {
     margin-right: 50px;
     margin-left: 50px;
+}
+
+@media only screen and (max-width: 434px) {
+    .slick-slide img {
+        width: 282px;
+    }
+    .slick-next {
+        right: 0px;
+    }
+    .slick-prev {
+        left: 2px;
+        z-index: 100;
+    }
 }
 
 /* Contributors */
@@ -447,7 +527,7 @@ h1, h2, h3 {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 415px) {
   .features-page p {
     font-size: 1.2rem;
   }
@@ -459,10 +539,6 @@ h1, h2, h3 {
 footer img {
     max-width: 100px;
     text-align: center;
-}
-
-footer .footer-alt li {
-     list-style-type: disc !important;
 }
 
 .footer-copyright a {
@@ -482,10 +558,14 @@ footer .col:nth-of-type(2) {
 }
 
 @media only screen and (max-width: 415px) {
-footer.page-footer .footer-copyright {
-    padding-right: 5px;
-    padding-left: 5px;
-    line-height: 1.25em;
+    footer.page-footer .footer-copyright {
+        padding-right: 5px;
+        padding-left: 5px;
+        line-height: 1.25em;
+        }
+        
+    .footer-copyright {
+        padding-top: 10px;
     }
 }
 
