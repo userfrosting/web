@@ -170,6 +170,9 @@ h1, h2, h3 {
     .frontpage {
         padding: 0px 100px 75px 100px;
     }
+    .frontpage {
+        margin-top: 75px;
+    }
 }
 
 /* Extendable section */
