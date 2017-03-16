@@ -32,7 +32,7 @@ The throttler lets you define custom rules for limiting request rates by IP or u
 Easily implement sortable, searchable, paginated JSON APIs for your data collections with our customizable Sprunje system.
 
 ### Fortress
-Fortress unified interface for data validation and transformation.  Validate user input on both client- and server-side with a single JSON schema!
+Fortress is a unified interface for data validation and transformation.  Validate user input on both client- and server-side with a single JSON schema!
 
 ### Error handling
 Throw an exception, then use a custom exception handler to send detailed error information to logs and/or present a useful message for users.

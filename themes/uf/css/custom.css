@@ -252,7 +252,8 @@ h1, h2, h3 {
 .features h6 {
     padding-top: 25px;
     padding-bottom: 10px;
-    color: #4da4c4;
+    font-size: 18px;
+    color: #26a69a;
 }
 
 .features p {
@@ -282,6 +283,8 @@ h1, h2, h3 {
   background-color: rgba(255, 255, 255, .9);
   padding-top: 6px;
   padding-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 /*End captions */
@@ -321,6 +324,9 @@ h1, h2, h3 {
 .contributors img {
     max-width: 50px;
 }
+
+
+
 
 
 /*Features page*/
