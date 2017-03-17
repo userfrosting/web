@@ -98,6 +98,9 @@ nav .nav-active:after {
 }
 
 
+.intro img {
+    max-height: 300px;
+}
 
 h1, h2, h3 {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
@@ -133,6 +136,9 @@ h1, h2, h3 {
     h1, h2, .intro h1 {
         font-size: 3.4em;
     }
+    .intro img {
+        padding-bottom: 25px;
+    }
 }
 
 @media only screen and (max-width: 420px)  {
@@ -148,8 +154,10 @@ h1, h2, h3 {
     }
     
     .intro img {
+        margin-top: 45px;
         padding-right: 20px;
         padding-left: 20px;
+        max-height: 142px;
     }
 }
 
@@ -202,12 +210,9 @@ h1, h2, h3 {
 }
 
 .features .col {
-    border-right: 1px solid #eaeaea;
-    border-top: 1px solid #eaeaea;
-   border-bottom: 1px solid #c2c2c2;
    padding-top: 50px;
    padding-bottom: 0px;
-   height: 440px;
+   height: 490px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -223,9 +228,20 @@ h1, h2, h3 {
     }
 }
 
+.features i {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
 @media only screen and (min-width: 600px) {
     .features i {
-        padding-top: 85px;
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+    .features .col {
+            border-right: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #c2c2c2;
     }
 }
 
@@ -255,7 +271,7 @@ h1, h2, h3 {
 .features h6 {
     padding-top: 25px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
     color: #26a69a;
 }
 
@@ -539,6 +555,12 @@ h1, h2, h3 {
 @media only screen and (max-width: 415px) {
   .features-page p {
     font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+  
+  .features-page h3 {
+    font-size: 1.5em !important;
+    margin-bottom: 0;
   }
 }
 
