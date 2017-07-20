@@ -626,6 +626,10 @@ footer .col:nth-of-type(2) {
     font-size: .9em
 }
 
+#nav-social li {
+    width: 52px;
+}
+
 .side-nav li > a >i {
     margin-right: 0px !important;
 }
