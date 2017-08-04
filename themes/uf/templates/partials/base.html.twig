@@ -18,7 +18,7 @@
     {% block stylesheets %}
         {% do assets.addCss('https://fonts.googleapis.com/icon?family=Material+Icons', 101) %}
        
-        {% do assets.addCss('theme://css/materialize.min.css', 100) %}
+        {% do assets.addCss('theme://css/materialize.css', 100) %}
         {% do assets.addCss('theme://css/slick.css', 100) %}
         {% do assets.addCss('theme://css/slick-theme.css', 100) %}
         {% do assets.addCss('theme://css/skolar-sans-latin.css', 100) %}
@@ -29,8 +29,8 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('theme://js/slick.min.js', 98) %}
-        {% do assets.addJs('theme://js/materialize.min.js', 99) %}
+        {% do assets.addJs('theme://js/slick.js', 98) %}
+        {% do assets.addJs('theme://js/materialize.js', 99) %}
         {% do assets.addJs('theme://js/custom.js', 96) %}
         {% do assets.addJs('theme://js/match.js', 97) %}
     {% endblock %}
