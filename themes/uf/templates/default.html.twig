@@ -2,56 +2,74 @@
 
 {% block content %}
     <div class="intro">
-        <div class="center-align padding-top">
-            <img src="{{ url('theme://images/frontpage/laptop1.png') }}" class="responsive-img">
-        </div>
-        <h1 class="center-align">
+         <h1 class="center-align">
             Modern user management for php.
         </h1>
         <div class="center-align padding-top">
+            <img src="{{ url('theme://images/frontpage/laptop.svg') }}" class="responsive-img" id="laptop">
+                <div class="slideshow-container uk-inline uk-visible-toggle" id="laptop-screen">
+                    <div class="mySlides fade">
+                         <img src="{{ url('theme://images/frontpage/login.jpg') }}">
+                    </div>
+                    <div class="mySlides fade">
+                         <img src="{{ url('theme://images/frontpage/adminlte.jpg') }}">
+                    </div>
+                    <div class="mySlides fade">
+                         <img src="{{ url('theme://images/frontpage/users.jpg') }}">
+                    </div>
+                    <div class="mySlides fade">
+                         <img src="{{ url('theme://images/frontpage/permissions.jpg') }}">
+                    </div>
+                    <a class="uk-position-center-left uk-slidenav-large prev" onclick="plusSlides(-1)" uk-slidenav-previous></a>
+                    <a class="uk-position-center-right uk-slidenav-large next" onclick="plusSlides(1)" uk-slidenav-next></a>
+               </div>
+        </div>
+       
+        <div class="center-align padding-top" id="header-buttons">
             <a href="https://learn.userfrosting.com/installation" target="about:_blank" class="waves-effect waves-light btn">Install</a>
             <a href="https://demo.userfrosting.com" target="about:_blank" class="waves-effect waves-light btn">Demo</a>
             <a href="https://github.com/userfrosting/UserFrosting" target="about:_blank" class="waves-effect waves-light btn">Github</a>
         </div>
     </div>
-    <div class="frontpage padding-top">
-        <div class="container">
-            <div class="col s12 m6">
-                    <p class="flow-text">
-                        Chances are you're here because you have a great idea for a user-oriented website.
-                    </p>
-                    <p class="flow-text">
-                        Whether it's a private forum for your gaming community, an employee management system for your small business, or the next big social network, you want to get started on your awesome new idea as quickly as possible.  You don't want to spend your time reinventing user sign-in and management features for the millionth time.  <em>Lucky for you - Userfrosting delivers all of this and more!</em>
-                    </p>
-            </div>
-        </div>
+    <div class="uk-section">
+          <div class="uk-container uk-margin-top">
+              <article class="uk-article">
+                <h3 class="uk-text-lead">
+                    Chances are you're here because you have a great idea for a user-oriented website.
+                </h3>
+                <p>
+                    Whether it's a private forum for your gaming community, an employee management system for your small business, or the next big social network, you want to get started on your awesome new idea as quickly as possible.  You don't want to spend your time reinventing user sign-in and management features for the millionth time.  <em>Lucky for you - Userfrosting delivers all of this and more!</em>
+                </p>
+            </article>
+          </div>
+          <div class="uk-container uk-margin-top" itemscope itemtype="http://schema.org/WebApplication">
+              <article class="uk-article">
+                <h3 class="uk-text-lead" style="color: rgb(96, 125, 139);">
+                      A framework and an application.
+                </h3>
+                <p>
+                     UserFrosting is a web framework for PHP.  Like other web frameworks, it offers a complete toolbox of programmatic components for building your application.
+                </p>
+                <p>
+                     Unlike other PHP frameworks, <em> it's a fully-functioning user management application,</em> right out of the box.  And, it's fully extendable so that you can easily create the custom features you need.
+                </p>
+              </article>
+          </div>
+          <div class="uk-container  uk-margin-top">
+             <article class="uk-article">
+               <h3 class="red-text text-lighten-2 uk-text-lead">  
+               Step up your game.
+               </h3>
+               <p>
+                   UserFrosting is designed to bring new and returning developers up to speed with the modern PHP community.  You'll be comfortably introduced to Composer (the dependency manager), object-oriented design patterns, and the PHP Standards Recommendations (PSR), making your code better structured and easier to manage.
+               </p>
+               <p>
+                   What's more, you'll learn how to use Node.js and Bower to cleanly manage client-side packages (Javascript and CSS).  Transform yourself from a code monkey into a software engineer.
+               </p>
+             </article>
+          </div>
+
     </div>
-    <div class="extendable section" itemscope itemtype="http://schema.org/WebApplication">
-        <div class="container">
-            <h3>
-                A framework and an application.
-            </h3> 
-            <p class="flow-text">
-                UserFrosting is a web framework for PHP.  Like other web frameworks, it offers a complete toolbox of programmatic components for building your application.
-            </p>
-            <p class="flow-text">
-                Unlike other PHP frameworks, <em> it's a fully-functioning user management application,</em> right out of the box.  And, it's fully extendable so that you can easily create the custom features you need.
-            </p>
-        </div>
-    </div>
-    <div class="better section">
-        <div class="container">
-            <h3 class="red-text text-lighten-2">  
-            Step up your game.
-            </h3>
-            <p class="flow-text">
-                UserFrosting is designed to bring new and returning developers up to speed with the modern PHP community.  You'll be comfortably introduced to Composer (the dependency manager), object-oriented design patterns, and the PHP Standards Recommendations (PSR), making your code better structured and easier to manage.
-            </p>
-            <p class="flow-text">
-                What's more, you'll learn how to use Node.js and Bower to cleanly manage client-side packages (Javascript and CSS).  Transform yourself from a code monkey into a software engineer.
-            </p>
-        </div>
-    </div>  
     <div class="features section">
             <h2 class="center-align">
                 Features
