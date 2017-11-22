@@ -163,6 +163,16 @@ nav.custom .dropdown-content a:hover {
     .laptop {
         display: none;
     }
+
+    h3 {
+            font-size: 1.8em !important;
+    }
+    .section {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
 
 @media only screen and (min-width: 420px)  {
@@ -170,10 +180,6 @@ nav.custom .dropdown-content a:hover {
         padding-bottom: 0rem;
         font-size: 36px;
         font-weight: 400;
-    }
-
-    h3 {
-            font-size: 1.8em !important;
     }
 
     .intro {
@@ -186,13 +192,6 @@ nav.custom .dropdown-content a:hover {
         padding-left: 20px;
         max-height: 142px;
     }
-
-    .section {
-        padding-top: 30px;
-        padding-bottom: 40px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
 }
 
 @media only screen and (min-width: 1160px)  {
@@ -200,7 +199,6 @@ nav.custom .dropdown-content a:hover {
         font-size: 3.4em;
     }
 }
-
 
 
 /* Header slideshow
