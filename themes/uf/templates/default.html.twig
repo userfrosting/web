@@ -15,7 +15,7 @@
         <p class="flow-text">
             Whether it's a private forum for your gaming community, an employee management system for your business, or the next big social network, you want to get started on your awesome new idea as quickly as possible.  You don't want to spend your time reinventing user sign-in and management features for the millionth time.  <em>Lucky for you - Userfrosting delivers all of this and more!</em>
         </p>
-        <div class="center-align padding">
+        <div class="center-align padding laptop">
             <img src="{{ url('theme://images/frontpage/laptop.svg') }}" class="responsive-img" id="laptop">
                 <div class="slideshow-container uk-inline uk-visible-toggle" id="laptop-screen">
                     <div class="mySlides fade">
@@ -61,64 +61,60 @@
         <h3>
         Features
         </h3>
-        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center uk-flex" uk-grid>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">Modern Specs</h3>
+                    <h2 class="uk-card-title">Modern Specs</h2>
                     <i class="fa fa-cloud-download fa-5x" aria-hidden="true"></i>
                     <p>
                         90's fashion might be back in style, but 90's development practices are not.  Our detailed installation guide painlessly introduces you to the modern developer's toolkit.
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="uk-flex-first@s">
                 <div class="uk-card uk-card-default uk-card-body">
-                        <h3 class="uk-card-title"> Sign-in System</h3>
+                        <h2 class="uk-card-title"> Sign-in System</h2>
                         <img src="{{ url('theme://images/features/login.png') }}">
                         <p>Login and persistent sessions ("remember me") are ready out of the box. Basic user functinoality is already taken care of for you!</p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">Fully extendable</h3>
+                    <h2 class="uk-card-title">Fully extendable</h2>
                     <i class="fa fa-cubes fa-5x" aria-hidden="true"></i>
                     <p>
                         New in version 4, the modular Sprinkle system lets you implement your application without ever modifying UF's core codebase.  Sprinkles can also be used to implement themes, plugins and more - see what our community has to offer!
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">Admin user management</h3>
+                    <h2 class="uk-card-title">Admin user management</h2>
                     <img src="{{ url('theme://images/features/permissions.png') }}">
                     <p>
                       Built-in user management page lets you view, search, and sort your users, create new user accounts, and edit existing ones.  Also provides tools to disable or delete users, manage permissions, and issue password resets.
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="uk-flex-last@s">
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">Separation of concerns</h3>
+                    <h2 class="uk-card-title">Separation of concerns</h2>
                     <i class="fa fa-chain-broken fa-5x" aria-hidden="true"></i>
                     <p>Give the gift of maintainability to your future self, no spaghetti code here.</p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title"> Roles and permissions</h3>
+                    <h2 class="uk-card-title"> Roles and permissions</h2>
                     <img src="{{ url('theme://images/features/users.png') }}">
                     <p>
                         Powerful role-based access control (RBAC) allows you to define fine-grained, programmatic rules for user access, then manage those permissions through the role management page.
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">Optimization</h3>
+                    <h2 class="uk-card-title">Optimization</h2>
                      <i class="fa fa-fast-forward fa-5x" aria-hidden="true"></i>
                     <p>
                         Define and compile asset bundles with Node.js, leverage caching for template rendering and route resolution, or use Laravel's caching service to cache arbitrary resources.  Just about every component can be optimized for production.
@@ -127,7 +123,7 @@
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">User dashboards</h3>
+                    <h2 class="uk-card-title">User dashboards</h2>
                       <i class="fa fa-laptop fa-5x"></i>
                     <p>
                       Build beautiful dashboards for your users with the default AdminLTE theme.
@@ -136,7 +132,7 @@
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                    <h3 class="uk-card-title">Documentation</h3>
+                    <h2 class="uk-card-title">Documentation</h2>
                     <i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
                     <p>
                        Clear, jargon-free guides for every aspect of the framework.  More than just the "how" and "what" - we explain the "why", too. Get answers fast.
@@ -145,7 +141,7 @@
             </div>
         </div>
     </div><!-- End features section-->
-    <div class="section">
+    <div class="gallery section">
         <h3>
             Built with Userfrosting
         </h3>
@@ -155,41 +151,41 @@
         <h3>
             Contributors
         </h3>
-        <div class="row">
+        <article class="uk-article">
             <img src="{{ url('theme://images/bios/alex.png') }}" class="circle responsive-img">
-              Alexander Weissman
-            <p>
-              Alex is the founder and co-owner of two companies, one that does <a href="https://bloomingtontutors.com" target="_about:blank">math tutoring at Indiana University</a> in Bloomington, IN and another company that does <a href="https://collegeparktutors.com" target="_about:blank">math tutoring at UMD</a> in College Park, MD. He is a PhD student in the School of Informatics and Computing at Indiana University.
+            <h1 class="uk-article-title">Alexander Weissman</h1>
+            <p class="uk-article-lead">
+                Alex is the founder and co-owner of two companies, one that does <a href="https://bloomingtontutors.com" target="_about:blank">math tutoring at Indiana University</a> in Bloomington, IN and another company that does <a href="https://collegeparktutors.com" target="_about:blank">math tutoring at UMD</a> in College Park, MD. He is a PhD student in the School of Informatics and Computing at Indiana University.
             </p>
-        </div>
-        <div class="row">
+        </article>
+        <article class="uk-article">
             <img src="{{ url('theme://images/bios/louis.png') }}" class="circle responsive-img">
-              Louis Charette
-            <p>
-              Louis's a civil engineer in Montréal, Québec who also has a passion for coding. He is one of the main contributors for SimpsonsCity.com and like to share is knowledge by helping other the same way he was helped when he first started coding.
+            <h1 class="uk-article-title">Louis Charette</h1>
+            <p class="uk-article-lead">
+                 Louis is a civil engineer in Montréal, Québec who also has a passion for coding. He is one of the main contributors for SimpsonsCity.com and likes to share is knowledge by helping others the same way he was helped when he first started coding.
             </p>
-        </div>
-        <div class="row">
+        </article>
+        <article class="uk-article">
             <img src="{{ url('theme://images/bios/jordan.png') }}" class="circle responsive-img">
-              Jordan Mele
-            <p>
-              Jordan's a developer at Mayvin Training and a student studying Computer Science at the University of Wollongong. His passion is creating software-based solutions to overcomplicated problems, without taking control away from the user. He's also Australian.
+            <h1 class="uk-article-title">Jordan Mele</h1>
+            <p class="uk-article-lead">
+                 Jordan's a developer at Mayvin Training and a student studying Computer Science at the University of Wollongong. His passion is creating software-based solutions to overcomplicated problems, without taking control away from the user. He's also Australian.
             </p>
-        </div>
-        <div class="row">
+        </article>
+        <article class="uk-article">
             <img src="{{ url('theme://images/bios/mike.png') }}" class="circle responsive-img">
-              Mike Jacobs
-            <p>
-              Mike's a programmer and IT specialist for a small business in New Hampshire, and works on open source projects when he's not camping or traveling.
+            <h1 class="uk-article-title">Mike Jacobs</h1>
+            <p class="uk-article-lead">
+                 Mike's a programmer and IT specialist for a small business in New Hampshire, and works on open source projects when he's not camping or traveling.
             </p>
-        </div>
-        <div class="row">
-           <img src="{{ url('theme://images/bios/sri.png') }}" class="circle responsive-img">
-              Srinivas Nukala
-            <p>
-              Srinivas's a web applications architect, with a passion for open source technologies. He is experienced in building SaaS (software as a service) web applications and enjoys working on open source projects and contributing to the community. He has a Masters in Computer Science from Pune University, India.
+        </article>
+        <article class="uk-article">
+            <img src="{{ url('theme://images/bios/sri.png') }}" class="circle responsive-img">
+            <h1 class="uk-article-title">Srinivas Nukala</h1>
+            <p class="uk-article-lead">
+                Srinivas's a web applications architect, with a passion for open source technologies. He is experienced in building SaaS (software as a service) web applications and enjoys working on open source projects and contributing to the community. He has a Masters in Computer Science from Pune University, India.
             </p>
-        </div>
+        </article>
     </div>
 </div>
 {% endblock %}
