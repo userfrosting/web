@@ -1,11 +1,21 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
+<div class="container">
     <div class="intro">
-         <h1 class="center-align">
-            Modern user management for php.
-        </h1>
-        <div class="center-align padding-top">
+        <h1 class="center-align">
+            Userfrosting <br>
+           <span class="uk-text-muted">Modern user management for php.</span>
+       </h1>
+    </div>
+    <div class="section">
+        <p class="flow-text">
+            Chances are you're here because you have a great idea for a user-oriented website.
+        </p>
+        <p class="flow-text">
+            Whether it's a private forum for your gaming community, an employee management system for your small business, or the next big social network, you want to get started on your awesome new idea as quickly as possible.  You don't want to spend your time reinventing user sign-in and management features for the millionth time.  <em>Lucky for you - Userfrosting delivers all of this and more!</em>
+        </p>
+        <div class="center-align padding">
             <img src="{{ url('theme://images/frontpage/laptop.svg') }}" class="responsive-img" id="laptop">
                 <div class="slideshow-container uk-inline uk-visible-toggle" id="laptop-screen">
                     <div class="mySlides fade">
@@ -24,284 +34,162 @@
                     <a class="uk-position-center-right uk-slidenav-large next" onclick="plusSlides(1)" uk-slidenav-next></a>
                </div>
         </div>
-       
-        <div class="center-align padding-top" id="header-buttons">
-            <a href="https://learn.userfrosting.com/installation" target="about:_blank" class="waves-effect waves-light btn">Install</a>
-            <a href="https://demo.userfrosting.com" target="about:_blank" class="waves-effect waves-light btn">Demo</a>
-            <a href="https://github.com/userfrosting/UserFrosting" target="about:_blank" class="waves-effect waves-light btn">Github</a>
-        </div>
     </div>
-    <div class="uk-section">
-          <div class="uk-container uk-margin-top">
-              <article class="uk-article">
-                <h3 class="uk-text-lead">
-                    Chances are you're here because you have a great idea for a user-oriented website.
-                </h3>
-                <p>
-                    Whether it's a private forum for your gaming community, an employee management system for your small business, or the next big social network, you want to get started on your awesome new idea as quickly as possible.  You don't want to spend your time reinventing user sign-in and management features for the millionth time.  <em>Lucky for you - Userfrosting delivers all of this and more!</em>
-                </p>
-            </article>
-          </div>
-          <div class="uk-container uk-margin-top" itemscope itemtype="http://schema.org/WebApplication">
-              <article class="uk-article">
-                <h3 class="uk-text-lead" style="color: rgb(96, 125, 139);">
-                      A framework and an application.
-                </h3>
-                <p>
-                     UserFrosting is a web framework for PHP.  Like other web frameworks, it offers a complete toolbox of programmatic components for building your application.
-                </p>
-                <p>
-                     Unlike other PHP frameworks, <em> it's a fully-functioning user management application,</em> right out of the box.  And, it's fully extendable so that you can easily create the custom features you need.
-                </p>
-              </article>
-          </div>
-          <div class="uk-container  uk-margin-top">
-             <article class="uk-article">
-               <h3 class="red-text text-lighten-2 uk-text-lead">  
-               Step up your game.
-               </h3>
-               <p>
-                   UserFrosting is designed to bring new and returning developers up to speed with the modern PHP community.  You'll be comfortably introduced to Composer (the dependency manager), object-oriented design patterns, and the PHP Standards Recommendations (PSR), making your code better structured and easier to manage.
-               </p>
-               <p>
-                   What's more, you'll learn how to use Node.js and Bower to cleanly manage client-side packages (Javascript and CSS).  Transform yourself from a code monkey into a software engineer.
-               </p>
-             </article>
-          </div>
-
+    <div class="section" itemscope itemtype="http://schema.org/WebApplication">
+        <h3>
+            A framework and an application.
+        </h3>
+        <p class="flow-text">
+            UserFrosting is a web framework for PHP.  Like other web frameworks, it offers a complete toolbox of programmatic components for building your application.
+        </p>
+        <p class="flow-text">
+            Unlike other PHP frameworks, <em> it's a fully-functioning user management application,</em> right out of the box.  And, it's fully extendable so that you can easily create the custom features you need.
+        </p>
+    </div>
+    <div class="section">
+        <h3 class="red-text text-lighten-2">
+        Step up your game.
+        </h3>
+        <p class="flow-text">
+            UserFrosting is designed to bring new and returning developers up to speed with the modern PHP community.  You'll be comfortably introduced to Composer (the dependency manager), object-oriented design patterns, and the PHP Standards Recommendations (PSR), making your code better structured and easier to manage.
+        </p>
+        <p class="flow-text">
+            What's more, you'll learn how to use Node.js and Bower to cleanly manage client-side packages (Javascript and CSS).  Transform yourself from a code monkey into a software engineer.
+        </p>
     </div>
     <div class="features section">
-            <h2 class="center-align">
-                Features
-            </h2>
-            <div class="row"><!-- Begin row-->
-                <div class="col s12 m6 l4 center-align dev"><!-- Begin feature install-->
+        <h3>
+        Features
+        </h3>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Modern Specs</h3>
                     <i class="fa fa-cloud-download fa-5x" aria-hidden="true"></i>
-                    <h5>
-                      Modern specs
-                    </h5>
-                    <h6>
-                      Batteries included
-                    </h6>
                     <p>
-                    90's fashion might be back in style, but 90's development practices are not.  Our detailed installation guide painlessly introduces you to the modern developer's toolkit.
+                        90's fashion might be back in style, but 90's development practices are not.  Our detailed installation guide painlessly introduces you to the modern developer's toolkit.
                     </p>
-                </div><!-- End feature Installation-->
-                <div class="col s12 m6 l4 center-align user"><!-- Begin feature sign in-->
-                    <img src="{{ url('theme://images/features/login.png') }}">
-                    <h5>
-                      Sign-in System
-                    </h5>
-                    <h6>
-                      Ready out of the box
-                    </h6>
-                    <p>
-                      Login and persistent sessions ("remember me") are already taken care of for you!
-                    </p>
-                </div><!-- End feature sign-in-->
-                <div class="col s12 m6 l4 center-align dev"><!-- Begin feature Extendable-->
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                        <h3 class="uk-card-title"> Sign-in System</h3>
+                        <img src="{{ url('theme://images/features/login.png') }}">
+                        <p>Login and persistent sessions ("remember me") are ready out of the box. Basic user functinoality is already taken care of for you!</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Fully extendable</h3>
                     <i class="fa fa-cubes fa-5x" aria-hidden="true"></i>
-                    <h5>
-                      Fully extendable
-                    </h5>
-                    <h6>
-                      Modular design
-                    </h6>
-                    <p class="text-flow">
-                      New in version 4, the Sprinkle system lets you implement your application without ever modifying UF's core codebase.  Sprinkles can also be used to implement themes, plugins and more - see what our community has to offer!
+                    <p>
+                        New in version 4, the modular Sprinkle system lets you implement your application without ever modifying UF's core codebase.  Sprinkles can also be used to implement themes, plugins and more - see what our community has to offer!
                     </p>
-                </div><!-- End featuer extendable-->
-    
-                <div class="col s12 m6 l4 center-align user"><!-- Begin feature sign in-->
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Admin user management</h3>
                     <img src="{{ url('theme://images/features/permissions.png') }}">
-                    <h5>
-                      Admin user management
-                    </h5>
-                    <h6>
-                      Master of your domain.
-                    </h6>
                     <p>
                       Built-in user management page lets you view, search, and sort your users, create new user accounts, and edit existing ones.  Also provides tools to disable or delete users, manage permissions, and issue password resets.
                     </p>
-                </div><!-- End feature sign-in-->
-                <div class="col s12 m6 l4 center-align dev"><!-- Begin feature separation-->
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Separation of concerns</h3>
                     <i class="fa fa-chain-broken fa-5x" aria-hidden="true"></i>
-                    <h5>
-                      Separation of concerns
-                    </h5>
-                    <h6>
-                      No spaghetti code in here!
-                    </h6>
-                    <p class="text-flow">
-                      Give the gift of maintainability to your future self.
-                    </p>
-                </div><!-- End feature separation-->
-                <div class="col s12 m6 l4 center-align user"><!-- Begin feature separation-->
+                    <p>Give the gift of maintainability to your future self, no spaghetti code here.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title"> Roles and permissions</h3>
                     <img src="{{ url('theme://images/features/users.png') }}">
-                    <h5>
-                      Roles and permissions
-                    </h5>
-                    <h6>
-                      Fine-grained access control
-                    </h6>
-                    <p class="text-flow">
-                      Powerful role-based access control (RBAC) allows you to define fine-grained, programmatic rules for user access, then manage those permissions through the role management page.
-                    </p>
-                </div><!-- End feature roles and permissions-->
-    
-                <div class="col s12 m6 l4 center-align dev last"><!-- Begin feature install-->
-                   <i class="fa fa-fast-forward fa-5x" aria-hidden="true"></i>
-                    <h5>
-                      Optimization
-                    </h5>
-                    <h6>
-                      Just about every component can be optimized for production.
-                    </h6>
                     <p>
-                      Define and compile asset bundles with Node.js, leverage caching for template rendering and route resolution, or use Laravel's caching service to cache arbitrary resources.  All of this is automatically supported by UF's core!
-                </div><!-- End feature Installation-->
-                <div class="col s12 m6 l4 center-align user last"><!-- Begin feature dashboard-->
-                    <img src="{{ url('theme://images/features/adminlte.png') }}">
-                    <h5>
-                      User dashboards
-                    </h5>
-                    <h6>
-                      <i>..."System status: Normal"...</i>
-                    </h6>
+                        Powerful role-based access control (RBAC) allows you to define fine-grained, programmatic rules for user access, then manage those permissions through the role management page.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Optimization</h3>
+                     <i class="fa fa-fast-forward fa-5x" aria-hidden="true"></i>
+                    <p>
+                        Define and compile asset bundles with Node.js, leverage caching for template rendering and route resolution, or use Laravel's caching service to cache arbitrary resources.  Just about every component can be optimized for production.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">User dashboards</h3>
+                      <i class="fa fa-laptop fa-5x"></i>
                     <p>
                       Build beautiful dashboards for your users with the default AdminLTE theme.
                     </p>
-                </div><!-- End feature dashboard-->
-                <div class="col s12 m6 l4 center-align dev last"><!-- Begin feature separation-->
-                    <i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
-                    <h5>
-                      Documentation
-                    </h5>
-                    <h6>
-                      Get answers fast.
-                    </h6>
-                    <p class="text-flow">
-                      Clear, jargon-free guides for every aspect of the framework.  More than just the "how" and "what" - we explain the "why", too.
-                    </p>
-                </div><!-- End featuer separation-->
-            </div><!-- End row-->
-            <div class="center align" style="padding-top:50px; padding-bottom: 50px; background-color: #f9f9f9; border-top: 1px solid #c2c2c2; border-bottom: 1px solid #c2c2c2;">
-                <h5><a href="{{url('features')}}" class="btn-large"><span class="hide-on-small-only">See our </span>full list of features</a></h5>
+                </div>
             </div>
-    </div><!-- End features section-->
-    <div class="builtwith section">
-        <div class="container">
-            <h2 class="white-text center-align" style="padding-bottom: 50px;">
-                Built with Userfrosting
-            </h2>
-            <div class="slick-slider">
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/do-hack.jpg') }}" class="img-responsive hc">
-                     <div class="slide__caption">
-                        <a href="https://portal.dohack.io/account/sign-in">
-                           DO Hack - Dortmund University's First Student Hackathon
-                        </a>
-                     </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/bloomingtontutors.png') }}">
-                    <div class="slide__caption">
-                        <a href="https://bloomingtontutors.com/">
-                            Bloomington Tutors
-                        </a>
-                    </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/collegeparktutors.jpg') }}">
-                    <div class="slide__caption">
-                        <a href="https://collegeparktutors.com">
-                            College Park Tutors
-                        </a>
-                    </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/noteswithcode.png') }}" class="img-responsive hc">
-                     <div class="slide__caption">
-                        <a href="https://noteswithcode.com/">
-                           Notes with Code
-                        </a>
-                     </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">      
-                    <img src="{{ url('theme://images/gallery/conjointly.jpg') }}">
-                    <div class="slide__caption">
-                        <a href="http://conjoint.online/">
-                            Conjoint.ly
-                        </a>
-                    </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/safetymessaging.jpg') }}">
-                    <div class="slide__caption">
-                        <a href="http://safetymessaging.net/">
-                            Safety Messaging
-                        </a>
-                     </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/quizevolved.jpg') }}">
-                    <div class="slide__caption">
-                        <a href="https://quizevolved.com/">
-                            Quiz Evolved
-                        </a>
-                    </div>
-                </div>
-                <div class="slide slide--has-caption slick-slide">
-                    <img src="{{ url('theme://images/gallery/artsho.png') }}" class="img-responsive hc">
-                     <div class="slide__caption">
-                        <a href="http://artsho.ws/">
-                           Artsho.ws
-                        </a>
-                     </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">Documentation</h3>
+                    <i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
+                    <p>
+                       Clear, jargon-free guides for every aspect of the framework.  More than just the "how" and "what" - we explain the "why", too. Get answers fast.
+                    </p>
                 </div>
             </div>
         </div>
-    </div>   
+    </div><!-- End features section-->
+    <div class="section">
+        <h3>
+            Built with Userfrosting
+        </h3>
+        {% include 'partials/gallery.html.twig'%}
+    </div>
     <div class="contributors section">
-        <div class="container">
-            <h2 style="padding-bottom: 25px;" class="center-align">
-                Contributors
-            </h2>
-            <div class="row">
-                <img src="{{ url('theme://images/bios/alex.png') }}" class="circle responsive-img">
-                  Alexander Weissman
-                <p>
-                  Alex is the founder and co-owner of two companies, one that does <a href="https://bloomingtontutors.com" target="_about:blank">math tutoring at Indiana University</a> in Bloomington, IN and another company that does <a href="https://collegeparktutors.com" target="_about:blank">math tutoring at UMD</a> in College Park, MD. He is a PhD student in the School of Informatics and Computing at Indiana University.
-                </p>
-            </div>
-            <div class="row">   
-                <img src="{{ url('theme://images/bios/louis.png') }}" class="circle responsive-img">
-                  Louis Charette
-                <p>
-                  Louis's a civil engineer in Montréal, Québec who also has a passion for coding. He is one of the main contributors for SimpsonsCity.com and like to share is knowledge by helping other the same way he was helped when he first started coding.
-                </p>
-            </div>
-            <div class="row">
-                <img src="{{ url('theme://images/bios/jordan.png') }}" class="circle responsive-img">
-                  Jordan Mele
-                <p>
-                  Jordan's a developer at Mayvin Training and a student studying Computer Science at the University of Wollongong. His passion is creating software-based solutions to overcomplicated problems, without taking control away from the user. He's also Australian.
-                </p>
-            </div>
-            <div class="row">
-                <img src="{{ url('theme://images/bios/mike.png') }}" class="circle responsive-img">
-                  Mike Jacobs
-                <p>
-                  Mike's a programmer and IT specialist for a small business in New Hampshire, and works on open source projects when he's not camping or traveling.    
-                </p>
-            </div>
-            <div class="row">
-               <img src="{{ url('theme://images/bios/sri.png') }}" class="circle responsive-img">
-                  Srinivas Nukala
-                <p>
-                  Srinivas's a web applications architect, with a passion for open source technologies. He is experienced in building SaaS (software as a service) web applications and enjoys working on open source projects and contributing to the community. He has a Masters in Computer Science from Pune University, India.    
-                </p>
-            </div>
+        <h3>
+            Contributors
+        </h3>
+        <div class="row">
+            <img src="{{ url('theme://images/bios/alex.png') }}" class="circle responsive-img">
+              Alexander Weissman
+            <p>
+              Alex is the founder and co-owner of two companies, one that does <a href="https://bloomingtontutors.com" target="_about:blank">math tutoring at Indiana University</a> in Bloomington, IN and another company that does <a href="https://collegeparktutors.com" target="_about:blank">math tutoring at UMD</a> in College Park, MD. He is a PhD student in the School of Informatics and Computing at Indiana University.
+            </p>
+        </div>
+        <div class="row">
+            <img src="{{ url('theme://images/bios/louis.png') }}" class="circle responsive-img">
+              Louis Charette
+            <p>
+              Louis's a civil engineer in Montréal, Québec who also has a passion for coding. He is one of the main contributors for SimpsonsCity.com and like to share is knowledge by helping other the same way he was helped when he first started coding.
+            </p>
+        </div>
+        <div class="row">
+            <img src="{{ url('theme://images/bios/jordan.png') }}" class="circle responsive-img">
+              Jordan Mele
+            <p>
+              Jordan's a developer at Mayvin Training and a student studying Computer Science at the University of Wollongong. His passion is creating software-based solutions to overcomplicated problems, without taking control away from the user. He's also Australian.
+            </p>
+        </div>
+        <div class="row">
+            <img src="{{ url('theme://images/bios/mike.png') }}" class="circle responsive-img">
+              Mike Jacobs
+            <p>
+              Mike's a programmer and IT specialist for a small business in New Hampshire, and works on open source projects when he's not camping or traveling.
+            </p>
+        </div>
+        <div class="row">
+           <img src="{{ url('theme://images/bios/sri.png') }}" class="circle responsive-img">
+              Srinivas Nukala
+            <p>
+              Srinivas's a web applications architect, with a passion for open source technologies. He is experienced in building SaaS (software as a service) web applications and enjoys working on open source projects and contributing to the community. He has a Masters in Computer Science from Pune University, India.
+            </p>
         </div>
     </div>
+</div>
 {% endblock %}
