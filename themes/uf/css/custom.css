@@ -3,7 +3,7 @@ body {
     background: #f7f7f7;
 }
 
-*:focus {
+a:focus {
     outline: none;
 }
 
@@ -15,7 +15,6 @@ em {
     padding: 100px 0;
 }
 
-
 h1, h2 {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Raleway', sans-serif;;
@@ -23,7 +22,7 @@ h1, h2 {
 }
 
 .features h3, .gallery h3, .contributors h3 {
-    padding: 3rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -35,7 +34,7 @@ a:hover {
 }
 
 nav li a {
-    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.04);
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.04);
 }
 
 nav ul li a {
@@ -70,15 +69,15 @@ nav .nav-active:after {
     content: '';
     display: block;
     background: rgba(0,0,0,0);
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
     margin: 0 auto;
     position: relative;
     top: -16px;
 }
 
 .side-nav li > a >i {
-    margin-right: 0px !important;
+    margin-right: 0 !important;
 }
 
 .dropdown-content li a {
@@ -90,7 +89,7 @@ nav .nav-active:after {
 ===============================================*/
 #nav-social i:first-child {
     color: #fdfdfd;
-    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
     font-size: 1.7em;
 }
 
@@ -135,7 +134,7 @@ nav.custom .dropdown-content a:hover {
 
 #nav-social li:hover i.fa-stack-2x {
     color: white;
-    text-shadow: 0px 0px 20px rgba(231, 129, 133, 0.62);
+    text-shadow: 0 0 20px rgba(231, 129, 133, 0.62);
     font-size: 1.757em;
 }
 
@@ -152,7 +151,7 @@ nav.custom .dropdown-content a:hover {
     font-weight: 900;
     text-transform: uppercase;
     padding: 40px 20px 16px;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 .uk-slidenav:hover {
@@ -177,7 +176,7 @@ nav.custom .dropdown-content a:hover {
 
 @media only screen and (min-width: 420px)  {
     h1, h2, .intro h1 {
-        padding-bottom: 0rem;
+        padding-bottom: 0;
         font-size: 36px;
         font-weight: 400;
     }
@@ -191,6 +190,12 @@ nav.custom .dropdown-content a:hover {
         padding-right: 20px;
         padding-left: 20px;
         max-height: 142px;
+    }
+}
+
+@media only screen and (min-width: 700px)  {
+    .features h3, .gallery h3, .contributors h3 {
+        padding: 3rem 0;
     }
 }
 
@@ -260,7 +265,7 @@ nav.custom .dropdown-content a:hover {
 ============================ */
 
 .features i {
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 10px;
 }
 
@@ -285,7 +290,7 @@ nav.custom .dropdown-content a:hover {
 }
 
 .slide__caption {
-  bottom: 0px;
+  bottom: 0;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -308,7 +313,7 @@ nav.custom .dropdown-content a:hover {
         width: 282px;
     }
     .slick-next {
-        right: 0px;
+        right: 0;
     }
     .slick-prev {
         left: 2px;
