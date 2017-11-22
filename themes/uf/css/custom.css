@@ -123,17 +123,6 @@ h1, h2 {
 }
 
 @media only screen and (max-width: 420px)  {
-    .intro .btn {
-        display: block;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
-
-    .intro .btn:nth-of-type(3) {
-        margin-bottom: 0px;
-    }
-
     .intro img {
         margin-top: 45px;
         padding-right: 20px;
@@ -189,8 +178,8 @@ h1, h2 {
 
 
 .slick-slider .slide {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 434px) {
@@ -218,8 +207,6 @@ h1, h2 {
 .contributors img {
     max-width: 50px;
 }
-
-
 
 
 
@@ -475,8 +462,6 @@ footer .col:nth-of-type(2) {
     }
 }
 
-
-
 /* Nav
 ===============================================*/
 #nav-social i:first-child {
@@ -601,4 +586,8 @@ nav.custom .dropdown-content a:hover {
 
 .prev {
     left: -100px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black ;
 }
