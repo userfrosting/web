@@ -202,11 +202,6 @@ nav.custom .dropdown-content a:hover {
     }
 }
 
-
-/* Header slideshow
-=====================================*/
-
-
 /* Features section
 ============================ */
 
@@ -225,6 +220,13 @@ nav.custom .dropdown-content a:hover {
         padding-top: 25px;
         padding-bottom: 20px;
     }
+}
+
+/* FAQ
+============================*/
+
+.faq h2 {
+    font-size: 1.5rem;
 }
 
 
@@ -272,6 +274,7 @@ nav.custom .dropdown-content a:hover {
 
 .contributors img {
     max-width: 50px;
+    border-radius: 999px;
 }
 
 .contributors h1 {

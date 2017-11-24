@@ -1,0 +1,13 @@
+<div class="faq section">
+    <h3 style="text-align: center; padding: 3rem;">
+        FAQ
+    </h3>
+    <ul uk-accordion>
+        {% for p in page.collection %}
+        <li>
+            <h3 class="uk-accordion-title">{{ p.title }}</h3>
+            <div class="uk-accordion-content">{{ p.content }}</div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

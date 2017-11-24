@@ -10,6 +10,7 @@ content:
         custom:
             - _intro
             - _features
+            - _faq
             - _built
             - _contributors
 ---

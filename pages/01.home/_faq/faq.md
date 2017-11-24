@@ -1,4 +1,5 @@
 ---
+title: FAQ
 content:
     items: '@self.children'
     order:
