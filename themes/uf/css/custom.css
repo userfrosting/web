@@ -3,7 +3,7 @@ body {
     background: #f7f7f7;
 }
 
-a:focus {
+a:focus, img:focus, div:focus {
     outline: none;
 }
 
