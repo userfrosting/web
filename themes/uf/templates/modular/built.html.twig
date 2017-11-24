@@ -7,8 +7,8 @@
         <div class="slide slide--has-caption slick-slide">
             {{ image.lightbox(1024,768).cropResize(auto,300).html }}
              <div class="slide__caption">
-                <a href="{{ page.media['safetymessaging.png'].meta.link }}" alt="{{ page.media['safetymessaging.png'].meta.alt_text }}">
-                   {{ page.media['safetymessaging.png'].meta.name }}
+                <a href="{{ image.meta.link }}" alt="{{ image.meta.alt_text }}">
+                   {{ image.meta.name }}
                 </a>
              </div>
         </div>
