@@ -4,15 +4,21 @@
     </h3>
     {% for p in page.collection %}
     <article class="uk-article">
-        {% for image in p.media.images %}
-            {{ image.html }}
-        {% endfor %}
-        <h1 class="uk-article-title">{{ p.title }}</h1><br>
-        <span class="uk-article-meta">
-            {% if p.header.github %}
-            <a href="https://github.com/{{ p.header.github }}"><i class="fa fa-github"></i> {{ p.header.github }}</a>
-            {% endif %}
-        </span>
+        <div class="uk-flex">
+            {% for image in p.media.images %}
+            <div class="uk-flex-item-none">
+                {{ image.html }}
+            </div>
+            {% endfor %}
+            <div>
+                <h1 class="uk-article-title">{{ p.title }}</h1><br>
+                <span class="uk-article-meta" style="padding-left: 15px;">
+                    {% if p.header.github %}
+                    <a href="https://github.com/{{ p.header.github }}"><i class="fa fa-github"></i> {{ p.header.github }}</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
         <p class="uk-article-lead">
             {{ p.content }}
         </p>
