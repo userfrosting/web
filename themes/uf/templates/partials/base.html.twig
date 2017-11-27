@@ -4,7 +4,7 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>Userfrosting | {{page.title}}</title>
+    <title>UserFrosting | {{page.title}}</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -69,6 +69,7 @@
         {% do assets.addJs('theme://js/slick.js', 98) %}
         {% do assets.addJs('theme://js/materialize.js', 99) %}
         {% do assets.addJs('theme://js/custom.js', 96) %}
+        {% do assets.addJs('https://buttons.github.io/buttons.js', {'loading': 'async defer'}) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -76,5 +77,4 @@
 
     {{ assets.js('bottom') }}
 {% endblock %}
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
