@@ -13,4 +13,5 @@ content:
             - _faq
             - _built
             - _contributors
+            - _githubfeed
 ---
