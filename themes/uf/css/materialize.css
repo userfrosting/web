@@ -1,7 +1,7 @@
 /*!
- * Materialize v0.97.8 (http://materializecss.com)
- * Copyright 2014-2015 Materialize
- * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ * materialize v0.97.8 (http://materializecss.com)
+ * Copyright 2014-2015 materialize
+ * mIt license (https://raw.githubusercontent.com/Dogfalo/materialize/master/lICENSE)
  */
 .materialize-red {
   background-color: #e51c23 !important;
@@ -92,11 +92,11 @@
 }
 
 .red.lighten-5 {
-  background-color: #FFEBEE !important;
+  background-color: #FFEbEE !important;
 }
 
 .red-text.text-lighten-5 {
-  color: #FFEBEE !important;
+  color: #FFEbEE !important;
 }
 
 .red.lighten-4 {
@@ -156,11 +156,11 @@
 }
 
 .red.darken-4 {
-  background-color: #B71C1C !important;
+  background-color: #b71C1C !important;
 }
 
 .red-text.text-darken-4 {
-  color: #B71C1C !important;
+  color: #b71C1C !important;
 }
 
 .red.accent-1 {
@@ -660,11 +660,11 @@
 }
 
 .blue.lighten-4 {
-  background-color: #BBDEFB !important;
+  background-color: #bbDEFb !important;
 }
 
 .blue-text.text-lighten-4 {
-  color: #BBDEFB !important;
+  color: #bbDEFb !important;
 }
 
 .blue.lighten-3 {
@@ -676,11 +676,11 @@
 }
 
 .blue.lighten-2 {
-  background-color: #64B5F6 !important;
+  background-color: #64b5F6 !important;
 }
 
 .blue-text.text-lighten-2 {
-  color: #64B5F6 !important;
+  color: #64b5F6 !important;
 }
 
 .blue.lighten-1 {
@@ -724,11 +724,11 @@
 }
 
 .blue.accent-1 {
-  background-color: #82B1FF !important;
+  background-color: #82b1FF !important;
 }
 
 .blue-text.text-accent-1 {
-  color: #82B1FF !important;
+  color: #82b1FF !important;
 }
 
 .blue.accent-2 {
@@ -1132,11 +1132,11 @@
 }
 
 .green.lighten-1 {
-  background-color: #66BB6A !important;
+  background-color: #66bb6A !important;
 }
 
 .green-text.text-lighten-1 {
-  color: #66BB6A !important;
+  color: #66bb6A !important;
 }
 
 .green.darken-1 {
@@ -1164,19 +1164,19 @@
 }
 
 .green.darken-4 {
-  background-color: #1B5E20 !important;
+  background-color: #1b5E20 !important;
 }
 
 .green-text.text-darken-4 {
-  color: #1B5E20 !important;
+  color: #1b5E20 !important;
 }
 
 .green.accent-1 {
-  background-color: #B9F6CA !important;
+  background-color: #b9F6CA !important;
 }
 
 .green-text.text-accent-1 {
-  color: #B9F6CA !important;
+  color: #b9F6CA !important;
 }
 
 .green.accent-2 {
@@ -2139,7 +2139,7 @@
   color: transparent !important;
 }
 
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v3.0.3 | mIt license | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
@@ -2155,16 +2155,16 @@ html {
 }
 
 /**
- * Remove default margin.
+ * remove default margin.
  */
 body {
   margin: 0;
 }
 
-/* HTML5 display definitions
+/* Html5 display definitions
    ========================================================================== */
 /**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for any Html5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
@@ -2201,7 +2201,7 @@ video {
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
+ * remove excess height in iOS 5 devices.
  */
 audio:not([controls]) {
   display: none;
@@ -2217,10 +2217,10 @@ template {
   display: none;
 }
 
-/* Links
+/* links
    ========================================================================== */
 /**
- * Remove the gray background color from active links in IE 10.
+ * remove the gray background color from active links in IE 10.
  */
 a {
   background-color: transparent;
@@ -2235,7 +2235,7 @@ a:hover {
   outline: 0;
 }
 
-/* Text-level semantics
+/* text-level semantics
    ========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
@@ -2305,7 +2305,7 @@ sub {
 /* Embedded content
    ========================================================================== */
 /**
- * Remove border when inside `a` element in IE 8/9/10.
+ * remove border when inside `a` element in IE 8/9/10.
  */
 img {
   border: 0;
@@ -2414,7 +2414,7 @@ input[type="submit"] {
 }
 
 /**
- * Re-set default cursor for disabled elements.
+ * re-set default cursor for disabled elements.
  */
 button[disabled],
 html input[disabled] {
@@ -2422,7 +2422,7 @@ html input[disabled] {
 }
 
 /**
- * Remove inner padding and border in Firefox 4+.
+ * remove inner padding and border in Firefox 4+.
  */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -2443,7 +2443,7 @@ input {
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
  *
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
+ * 2. remove excess padding in IE 8/9/10.
  */
 input[type="checkbox"],
 input[type="radio"] {
@@ -2475,7 +2475,7 @@ input[type="search"] {
 }
 
 /**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
@@ -2495,7 +2495,7 @@ fieldset {
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 2. remove padding so people aren't caught out if they zero out fieldsets.
  */
 legend {
   border: 0;
@@ -2505,7 +2505,7 @@ legend {
 }
 
 /**
- * Remove default vertical scrollbar in IE 8/9/10/11.
+ * remove default vertical scrollbar in IE 8/9/10/11.
  */
 textarea {
   overflow: auto;
@@ -2513,16 +2513,16 @@ textarea {
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ * NOtE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 optgroup {
   font-weight: bold;
 }
 
-/* Tables
+/* tables
    ========================================================================== */
 /**
- * Remove most spacing between table cells.
+ * remove most spacing between table cells.
  */
 table {
   border-collapse: collapse;
@@ -2731,7 +2731,7 @@ video.responsive-video {
   color: rgba(255, 255, 255, 0.7);
   vertical-align: top;
   display: inline-block;
-  font-family: 'Material Icons';
+  font-family: 'material Icons';
   font-weight: normal;
   font-style: normal;
   font-size: 25px;
@@ -2784,7 +2784,7 @@ video.responsive-video {
 }
 
 /*********************
-  Transition Classes
+  transition Classes
 **********************/
 ul.staggered-list li {
   opacity: 0;
@@ -2797,7 +2797,7 @@ ul.staggered-list li {
 }
 
 /*********************
-  Media Query Classes
+  media Query Classes
 **********************/
 @media only screen and (max-width: 600px) {
   .hide-on-small-only, .hide-on-small-and-down {
@@ -3342,9 +3342,9 @@ input[type=range] + .thumb {
   padding: 0 !important;
 }
 
-/* This is needed for some mobile phones to display the Google Icon font properly */
+/* this is needed for some mobile phones to display the Google Icon font properly */
 .material-icons {
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizelegibility;
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
@@ -4205,37 +4205,30 @@ nav .input-field label.active {
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.eot");
-  src: url("../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.eot");
-  src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-family: "roboto";
+  src: local(roboto light), url("../fonts/roboto/roboto-light.eot");
+  src: url("../fonts/roboto/roboto-light.eot?#iefix") format("embedded-opentype"), url("../fonts/robot/roboto-light.woff2") format("woff2"), url("../fonts/roboto/roboto-light.woff") format("woff"), url("../fonts/roboto/roboto-light.ttf") format("truetype");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.eot");
-  src: url("../fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff"), url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-family: "roboto";
+  src: local(roboto regular), url("../fonts/roboto/roboto-regular.eot");
+  src: url("../fonts/roboto/roboto-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/robot/roboto-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-regular.woff") format("woff"), url("../fonts/roboto/roboto-regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Medium.eot");
-  src: url("../fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff"), url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-family: "roboto";
+  src: url("../fonts/roboto/roboto-medium.eot");
+  src: url("../fonts/roboto/roboto-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/robot/roboto-medium.woff2") format("woff2"), url("../fonts/roboto/roboto-medium.woff") format("woff"), url("../fonts/roboto/roboto-medium.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto/Roboto-Bold.eot");
-  src: url("../fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff"), url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-family: "roboto";
+  src: url("../fonts/roboto/roboto-bold.eot");
+  src: url("../fonts/roboto/roboto-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/robot/roboto-bold.woff2") format("woff2"), url("../fonts/roboto/roboto-bold.woff") format("woff"), url("../fonts/roboto/roboto-bold.ttf") format("truetype");
   font-weight: 700;
 }
 
@@ -4245,7 +4238,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -5228,8 +5221,8 @@ button.btn-floating {
  * http://fian.my.id/Waves
  *
  * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
+ * released under the mIT license
+ * https://github.com/fians/Waves/blob/master/lICENSE
  */
 .waves-effect {
   position: relative;
@@ -5341,7 +5334,7 @@ button.btn-floating {
   display: block;
 }
 
-/* Firefox Bug: link not triggered */
+/* Firefox bug: link not triggered */
 .waves-effect .waves-ripple {
   z-index: -1;
 }
@@ -5675,7 +5668,7 @@ label {
   color: #9e9e9e;
 }
 
-/* Text Inputs + Textarea
+/* text Inputs + textarea
    ========================================================================== */
 /* Style Placeholders */
 ::-webkit-input-placeholder {
@@ -5696,7 +5689,7 @@ label {
   color: #d1d1d1;
 }
 
-/* Text inputs */
+/* text inputs */
 input:not([type]),
 input[type=text],
 input[type=password],
@@ -6090,7 +6083,7 @@ textarea.materialize-textarea + label:after {
   transition: .3s color;
 }
 
-/* Textarea */
+/* textarea */
 textarea {
   width: 100%;
   height: 3rem;
@@ -6134,7 +6127,7 @@ textarea.materialize-textarea {
   margin: 5px 15px;
 }
 
-/* Radio Buttons
+/* radio buttons
    ========================================================================== */
 [type="radio"]:not(:checked),
 [type="radio"]:checked {
@@ -6214,7 +6207,7 @@ textarea.materialize-textarea {
           transform: scale(1.02);
 }
 
-/* Radio With gap */
+/* radio With gap */
 [type="radio"].with-gap:checked + label:after {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
@@ -6225,7 +6218,7 @@ textarea.materialize-textarea {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Disabled Radio With gap */
+/* Disabled radio With gap */
 [type="radio"].with-gap:disabled:checked + label:before {
   border: 2px solid rgba(0, 0, 0, 0.26);
 }
@@ -6252,12 +6245,12 @@ textarea.materialize-textarea {
 
 [type="radio"]:disabled:checked + label:after {
   background-color: rgba(0, 0, 0, 0.26);
-  border-color: #BDBDBD;
+  border-color: #bDbDbD;
 }
 
 /* Checkboxes
    ========================================================================== */
-/* CUSTOM CSS CHECKBOXES */
+/* CUStOm CSS CHECKbOXES */
 form p {
   margin-bottom: 10px;
   text-align: left;
@@ -6267,7 +6260,7 @@ form p:last-child {
   margin-bottom: 0;
 }
 
-/* Remove default checkbox */
+/* remove default checkbox */
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
   position: absolute;
@@ -6455,7 +6448,7 @@ form p:last-child {
 
 [type="checkbox"].filled-in:disabled:not(:checked) + label:after {
   border-color: transparent;
-  background-color: #BDBDBD;
+  background-color: #bDbDbD;
 }
 
 [type="checkbox"].filled-in:disabled:checked + label:before {
@@ -6463,8 +6456,8 @@ form p:last-child {
 }
 
 [type="checkbox"].filled-in:disabled:checked + label:after {
-  background-color: #BDBDBD;
-  border-color: #BDBDBD;
+  background-color: #bDbDbD;
+  border-color: #bDbDbD;
 }
 
 /* Switch
@@ -6540,7 +6533,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
 
 .switch label input[type=checkbox][disabled] + .lever:after,
 .switch label input[type=checkbox][disabled]:checked + .lever:after {
-  background-color: #BDBDBD;
+  background-color: #bDbDbD;
 }
 
 /* Select Field
@@ -6708,7 +6701,7 @@ select:disabled {
   filter: alpha(opacity=0);
 }
 
-/* Range
+/* range
    ========================================================================== */
 .range-field {
   position: relative;
@@ -6860,7 +6853,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /***************
-    Nav List
+    Nav list
 ***************/
 .table-of-contents.fixed {
   position: fixed;
@@ -7109,28 +7102,28 @@ input[type=range]:focus::-ms-fill-upper {
 
 /*
     @license
-    Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
-    This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-    The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-    The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+    Copyright (c) 2014 the Polymer Project Authors. All rights reserved.
+    this code may only be used under the bSD style license found at http://polymer.github.io/lICENSE.txt
+    the complete set of authors may be found at http://polymer.github.io/AUtHOrS.txt
+    the complete set of contributors may be found at http://polymer.github.io/CONtrIbUtOrS.txt
     Code distributed by Google as part of the polymer project is also
-    subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+    subject to an additional IP rights grant found at http://polymer.github.io/PAtENtS.txt
  */
 /**************************/
-/* STYLES FOR THE SPINNER */
+/* StYlES FOr tHE SPINNEr */
 /**************************/
 /*
  * Constants:
- *      STROKEWIDTH = 3px
- *      ARCSIZE     = 270 degrees (amount of circle the arc takes up)
- *      ARCTIME     = 1333ms (time it takes to expand and contract arc)
- *      ARCSTARTROT = 216 degrees (how much the start location of the arc
+ *      StrOKEWIDtH = 3px
+ *      ArCSIZE     = 270 degrees (amount of circle the arc takes up)
+ *      ArCtImE     = 1333ms (time it takes to expand and contract arc)
+ *      ArCStArtrOt = 216 degrees (how much the start location of the arc
  *                                should rotate each time, 216 gives us a
  *                                5 pointed star shape (it's 360/5 * 3).
  *                                For a 7 pointed star, we might do
  *                                360/7 * 3 = 154.286)
- *      CONTAINERWIDTH = 28px
- *      SHRINK_TIME = 400ms
+ *      CONtAINErWIDtH = 28px
+ *      SHrINK_tImE = 400ms
  */
 .preloader-wrapper {
   display: inline-block;
@@ -7150,7 +7143,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .preloader-wrapper.active {
-  /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
+  /* duration: 360 * ArCtImE / (ArCStArtrOt + (360-ArCSIZE)) */
   -webkit-animation: container-rotate 1568ms linear infinite;
   animation: container-rotate 1568ms linear infinite;
 }
@@ -7197,7 +7190,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * IMPORTANT NOTE ABOUT CSS ANIMATION PROPERTIES (keanulee):
+ * ImPOrtANt NOtE AbOUt CSS ANImAtION PrOPErtIES (keanulee):
  *
  * iOS Safari (tested on iOS 8.1) does not handle animation-delay very well - it doesn't
  * guarantee that the animation will start _exactly_ after that value. So we avoid using
@@ -7210,25 +7203,25 @@ input[type=range]:focus::-ms-fill-upper {
  * other animation rules. See https://github.com/Polymer/platform/issues/53.
  */
 .active .spinner-layer.spinner-blue {
-  /* durations: 4 * ARCTIME */
+  /* durations: 4 * ArCtImE */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .spinner-layer.spinner-red {
-  /* durations: 4 * ARCTIME */
+  /* durations: 4 * ArCtImE */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .spinner-layer.spinner-yellow {
-  /* durations: 4 * ARCTIME */
+  /* durations: 4 * ArCtImE */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .spinner-layer.spinner-green {
-  /* durations: 4 * ARCTIME */
+  /* durations: 4 * ArCtImE */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
@@ -7238,7 +7231,7 @@ input[type=range]:focus::-ms-fill-upper {
 .active .spinner-layer.spinner-red-only,
 .active .spinner-layer.spinner-yellow-only,
 .active .spinner-layer.spinner-green-only {
-  /* durations: 4 * ARCTIME */
+  /* durations: 4 * ArCtImE */
   opacity: 1;
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -7248,35 +7241,35 @@ input[type=range]:focus::-ms-fill-upper {
   12.5% {
     -webkit-transform: rotate(135deg);
   }
-  /* 0.5 * ARCSIZE */
+  /* 0.5 * ArCSIZE */
   25% {
     -webkit-transform: rotate(270deg);
   }
-  /* 1   * ARCSIZE */
+  /* 1   * ArCSIZE */
   37.5% {
     -webkit-transform: rotate(405deg);
   }
-  /* 1.5 * ARCSIZE */
+  /* 1.5 * ArCSIZE */
   50% {
     -webkit-transform: rotate(540deg);
   }
-  /* 2   * ARCSIZE */
+  /* 2   * ArCSIZE */
   62.5% {
     -webkit-transform: rotate(675deg);
   }
-  /* 2.5 * ARCSIZE */
+  /* 2.5 * ArCSIZE */
   75% {
     -webkit-transform: rotate(810deg);
   }
-  /* 3   * ARCSIZE */
+  /* 3   * ArCSIZE */
   87.5% {
     -webkit-transform: rotate(945deg);
   }
-  /* 3.5 * ARCSIZE */
+  /* 3.5 * ArCSIZE */
   to {
     -webkit-transform: rotate(1080deg);
   }
-  /* 4   * ARCSIZE */
+  /* 4   * ArCSIZE */
 }
 
 @keyframes fill-unfill-rotate {
@@ -7284,42 +7277,42 @@ input[type=range]:focus::-ms-fill-upper {
     -webkit-transform: rotate(135deg);
             transform: rotate(135deg);
   }
-  /* 0.5 * ARCSIZE */
+  /* 0.5 * ArCSIZE */
   25% {
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
   }
-  /* 1   * ARCSIZE */
+  /* 1   * ArCSIZE */
   37.5% {
     -webkit-transform: rotate(405deg);
             transform: rotate(405deg);
   }
-  /* 1.5 * ARCSIZE */
+  /* 1.5 * ArCSIZE */
   50% {
     -webkit-transform: rotate(540deg);
             transform: rotate(540deg);
   }
-  /* 2   * ARCSIZE */
+  /* 2   * ArCSIZE */
   62.5% {
     -webkit-transform: rotate(675deg);
             transform: rotate(675deg);
   }
-  /* 2.5 * ARCSIZE */
+  /* 2.5 * ArCSIZE */
   75% {
     -webkit-transform: rotate(810deg);
             transform: rotate(810deg);
   }
-  /* 3   * ARCSIZE */
+  /* 3   * ArCSIZE */
   87.5% {
     -webkit-transform: rotate(945deg);
             transform: rotate(945deg);
   }
-  /* 3.5 * ARCSIZE */
+  /* 3.5 * ArCSIZE */
   to {
     -webkit-transform: rotate(1080deg);
             transform: rotate(1080deg);
   }
-  /* 4   * ARCSIZE */
+  /* 4   * ArCSIZE */
 }
 
 @-webkit-keyframes blue-fade-in-out {
@@ -7504,7 +7497,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 200%;
   height: 100%;
   border-width: 3px;
-  /* STROKEWIDTH */
+  /* StrOKEWIDtH */
   border-style: solid;
   border-color: inherit;
   border-bottom-color: transparent !important;
@@ -7532,13 +7525,13 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .active .circle-clipper.left .circle {
-  /* duration: ARCTIME */
+  /* duration: ArCtImE */
   -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
 
 .active .circle-clipper.right .circle {
-  /* duration: ARCTIME */
+  /* duration: ArCtImE */
   -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
@@ -7598,7 +7591,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #spinnerContainer.cooldown {
-  /* duration: SHRINK_TIME */
+  /* duration: SHrINK_tImE */
   -webkit-animation: container-rotate 1568ms linear infinite, fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
   animation: container-rotate 1568ms linear infinite, fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -7801,10 +7794,10 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* ==========================================================================
-   $BASE-PICKER
+   $bASE-PICKEr
    ========================================================================== */
 /**
- * Note: the root picker element should *NOT* be styled more than what's here.
+ * Note: the root picker element should *NOt* be styled more than what's here.
  */
 .picker {
   font-size: 16px;
@@ -7820,7 +7813,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The picker input element.
+ * the picker input element.
  */
 .picker__input {
   cursor: default;
@@ -7834,7 +7827,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The holder is the only "scrollable" top-level container element.
+ * the holder is the only "scrollable" top-level container element.
  */
 .picker__holder {
   width: 100%;
@@ -7847,10 +7840,10 @@ input[type=range]:focus::-ms-fill-upper {
  * Demo: http://amsul.github.io/pickadate.js
  */
 /**
- * Note: the root picker element should *NOT* be styled more than what's here.
+ * Note: the root picker element should *NOt* be styled more than what's here.
  */
 /**
- * Make the holder and frame fullscreen.
+ * make the holder and frame fullscreen.
  */
 .picker__holder,
 .picker__frame {
@@ -7861,7 +7854,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The holder should overlay the entire screen.
+ * the holder should overlay the entire screen.
  */
 .picker__holder {
   position: fixed;
@@ -7870,7 +7863,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The frame that bounds the box contents of the picker.
+ * the frame that bounds the box contents of the picker.
  */
 .picker__frame {
   position: absolute;
@@ -7878,7 +7871,7 @@ input[type=range]:focus::-ms-fill-upper {
   min-width: 256px;
   width: 300px;
   max-height: 350px;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progid:DXImagetransform.microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   -moz-opacity: 0;
   opacity: 0;
@@ -7901,7 +7894,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The wrapper sets the stage to vertically align the box contents.
+ * the wrapper sets the stage to vertically align the box contents.
  */
 .picker__wrap {
   display: table;
@@ -7916,7 +7909,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The box contains all the picker contents.
+ * the box contains all the picker contents.
  */
 .picker__box {
   background: #ffffff;
@@ -7941,7 +7934,7 @@ input[type=range]:focus::-ms-fill-upper {
 .picker--opened .picker__holder {
   top: 0;
   background: transparent;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)";
+  -ms-filter: "progid:DXImagetransform.microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)";
   zoom: 1;
   background: rgba(0, 0, 0, 0.32);
   transition: background 0.15s ease-out;
@@ -7949,7 +7942,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .picker--opened .picker__frame {
   top: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -ms-filter: "progid:DXImagetransform.microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   -moz-opacity: 1;
   opacity: 1;
@@ -7966,7 +7959,7 @@ input[type=range]:focus::-ms-fill-upper {
  * For `large` screens, transform into an inline picker.
  */
 /* ==========================================================================
-   CUSTOM MATERIALIZE STYLES
+   CUStOm mAtErIAlIZE StYlES
    ========================================================================== */
 .picker__input.picker__input--active {
   border-color: #E3F2FD;
@@ -7985,17 +7978,17 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* ==========================================================================
-   $BASE-DATE-PICKER
+   $bASE-DAtE-PICKEr
    ========================================================================== */
 /**
- * The picker box.
+ * the picker box.
  */
 .picker__box {
   padding: 0 1em;
 }
 
 /**
- * The header containing the month and year stuff.
+ * the header containing the month and year stuff.
  */
 .picker__header {
   text-align: center;
@@ -8004,7 +7997,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The month and year labels.
+ * the month and year labels.
  */
 .picker__month,
 .picker__year {
@@ -8014,7 +8007,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The month and year selectors.
+ * the month and year selectors.
  */
 .picker__select--month,
 .picker__select--year {
@@ -8042,7 +8035,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The month navigation buttons.
+ * the month navigation buttons.
  */
 .picker__nav--prev,
 .picker__nav--next {
@@ -8075,7 +8068,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The calendar table of dates
+ * the calendar table of dates
  */
 .picker__table {
   text-align: center;
@@ -8098,7 +8091,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The weekday labels
+ * the weekday labels
  */
 .picker__weekday {
   width: 14.285714286%;
@@ -8116,7 +8109,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The days on the calendar
+ * the days on the calendar
  */
 .picker__day--today {
   position: relative;
@@ -8179,7 +8172,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /**
- * The footer containing the "today", "clear", and "close" buttons.
+ * the footer containing the "today", "clear", and "close" buttons.
  */
 .picker__footer {
   text-align: center;
@@ -8273,7 +8266,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* ==========================================================================
-   CUSTOM MATERIALIZE STYLES
+   CUStOm mAtErIAlIZE StYlES
    ========================================================================== */
 .picker__box {
   border-radius: 2px;
@@ -8405,10 +8398,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /* ==========================================================================
-   $BASE-TIME-PICKER
+   $bASE-tImE-PICKEr
    ========================================================================== */
 /**
- * The list of times.
+ * the list of times.
  */
 .picker__list {
   list-style: none;
@@ -8417,7 +8410,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /**
- * The times on the clock.
+ * the times on the clock.
  */
 .picker__list-item {
   border-bottom: 1px solid #dddddd;
@@ -8478,7 +8471,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /**
- * The clear button
+ * the clear button
  */
 .picker--time .picker__button--clear {
   display: block;
@@ -8518,10 +8511,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /* ==========================================================================
-   $DEFAULT-TIME-PICKER
+   $DEFAUlt-tImE-PICKEr
    ========================================================================== */
 /**
- * The frame the bounds the time picker.
+ * the frame the bounds the time picker.
  */
 .picker--time .picker__frame {
   min-width: 256px;
@@ -8529,7 +8522,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 /**
- * The picker box.
+ * the picker box.
  */
 .picker--time .picker__box {
   font-size: 1em;
