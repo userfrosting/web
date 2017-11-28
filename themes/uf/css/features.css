@@ -1,13 +1,5 @@
 /*Features page*/
 
-.features-page .developer {
-    background-color: rgba(243, 243, 243, 0.39);
-}
-
-.features-page .user {
-    background-color: white;
-}
-
 .features-page h1:first-child {
     margin-top: 0px;
 }
