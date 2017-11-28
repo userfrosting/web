@@ -12,16 +12,14 @@
     <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
     {% endfor %}
     <link rel="icon" href="{{ url('theme://images/favicon/favicon.ico') }}" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400" rel="stylesheet">
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('https://fonts.googleapis.com/icon?family=Material+Icons', 101) %}
         {% do assets.addCss('theme://css/uikit.min.css', 100) %}
         {% do assets.addCss('theme://css/materialize.css', 100) %}
         {% do assets.addCss('theme://css/slick.css', 100) %}
         {% do assets.addCss('theme://css/slick-theme.css', 100) %}
-        {% do assets.addCss('theme://css/skolar-sans-latin.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/custom.css', 98) %}
         {% do assets.addCss('theme://css/features.css', 97) %}
@@ -65,7 +63,6 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('theme://js/uikit-icons.min.js', 98) %}
         {% do assets.addJs('theme://js/uikit.min.js', 98) %}
         {% do assets.addJs('theme://js/slick.js', 98) %}
         {% do assets.addJs('theme://js/materialize.js', 99) %}
