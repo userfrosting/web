@@ -60,7 +60,6 @@
 {% endblock %}
 
 {% block bottom %}
-
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
         {% do assets.addJs('theme://js/uikit.js', 98) %}
@@ -72,8 +71,6 @@
     {{ assets.js() }}
 
     {% include 'partials/rocket.html.twig' %}
-
-    {{ assets.js('bottom') }}
 {% endblock %}
 </body>
 </html>
