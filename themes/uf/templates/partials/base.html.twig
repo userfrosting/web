@@ -16,7 +16,7 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/uikit.min.css', 100) %}
+        {% do assets.addCss('theme://css/uikit.css', 100) %}
         {% do assets.addCss('theme://css/materialize.css', 100) %}
         {% do assets.addCss('theme://css/slick.css', 100) %}
         {% do assets.addCss('theme://css/slick-theme.css', 100) %}
@@ -63,9 +63,9 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('theme://js/uikit.min.js', 98) %}
-        {% do assets.addJs('theme://js/slick.js', 98) %}
+        {% do assets.addJs('theme://js/uikit.js', 98) %}
         {% do assets.addJs('theme://js/materialize.js', 99) %}
+        {% do assets.addJs('theme://js/slick.js', 98) %}
         {% do assets.addJs('theme://js/custom.js', 96) %}
         {% do assets.addJs('https://buttons.github.io/buttons.js', {'loading': 'async defer'}) %}
     {% endblock %}
