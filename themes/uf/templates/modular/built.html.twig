@@ -7,10 +7,11 @@
         <div class="slide slide--has-caption slick-slide">
             {{ image.lightbox(1024,768).cropResize(auto,300).html }}
              <div class="slide__caption">
-                <a href="{{ image.meta.link }}" alt="{{ image.meta.alt_text }}">
+                <a href="{{ image.meta.link }}">
                    {{ image.meta.name }}
                 </a>
              </div>
         </div>
         {% endfor %}
+    </div>
 </div>
