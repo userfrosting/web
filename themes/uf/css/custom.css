@@ -146,7 +146,7 @@ nav.custom .dropdown-content a:hover {
 ========================== */
 
 .intro h1 {
-    font-size: 18px;
+    font-size: 28px;
     line-height: 1.5em;
     font-weight: 900;
     text-transform: uppercase;
@@ -156,6 +156,11 @@ nav.custom .dropdown-content a:hover {
 
 .uk-slidenav:hover {
     color: black;
+}
+
+.github-button {
+    text-align: center;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 550px)  {
@@ -187,6 +192,10 @@ nav.custom .dropdown-content a:hover {
         padding-right: 20px;
         padding-left: 20px;
         max-height: 142px;
+    }
+
+    .github-button {
+        padding: 40px;
     }
 }
 
