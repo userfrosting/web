@@ -3,6 +3,11 @@ body {
     background: #f7f7f7;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #0281bf;
+}
+
 a:focus, img:focus, div:focus {
     outline: none;
 }
@@ -342,6 +347,12 @@ footer {
 
 footer a {
     color: #fff;
+}
+
+footer a:hover {
+    color: rgb(214, 213, 213);
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
 }
 
 footer.page-footer {
