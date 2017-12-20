@@ -3,6 +3,11 @@ body {
     background: #f7f7f7;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #0281bf;
+}
+
 a:focus, img:focus, div:focus {
     outline: none;
 }
@@ -25,6 +30,11 @@ h1, h2 {
     padding: 1rem 0;
     text-align: center;
 }
+
+.uk-text-lead {
+    font-weight: bold;
+}
+
 
 /* NAV
 ============================*/
@@ -142,11 +152,12 @@ nav.custom .dropdown-content a:hover {
     color: #2bbbad;
 }
 
+
 /* Intro
 ========================== */
 
 .intro h1 {
-    font-size: 18px;
+    font-size: 28px;
     line-height: 1.5em;
     font-weight: 900;
     text-transform: uppercase;
@@ -158,11 +169,17 @@ nav.custom .dropdown-content a:hover {
     color: black;
 }
 
-@media only screen and (max-width: 550px)  {
+.github-button {
+    text-align: center;
+    padding: 5px;
+}
 
-    h3 {
-        font-size: 1.8em !important;
+@media only screen and (min-width: 550px)  {
+
+    .faq li h3 {
+        font-size: 1.5rem;
     }
+
     .section {
         padding-top: 30px;
         padding-bottom: 40px;
@@ -188,6 +205,10 @@ nav.custom .dropdown-content a:hover {
         padding-left: 20px;
         max-height: 142px;
     }
+
+    .github-button {
+        padding: 40px;
+    }
 }
 
 @media only screen and (min-width: 700px)  {
@@ -201,6 +222,7 @@ nav.custom .dropdown-content a:hover {
         font-size: 3.4em;
     }
 }
+
 
 /* Features section
 ============================ */
@@ -219,6 +241,7 @@ nav.custom .dropdown-content a:hover {
         padding: 25px 0;
     }
 }
+
 
 /* FAQ
 ============================*/
@@ -262,10 +285,17 @@ nav.custom .dropdown-content a:hover {
         right: 0;
     }
     .slick-prev {
-        left: 2px;
+        left: 0;
         z-index: 100;
     }
 }
+
+@media only screen and (max-width: 335px) {
+    .slick-prev:before, .slick-next:before {
+        color: rgb(56, 170, 214);
+    }
+}
+
 
 /* Contributors
 =================================*/
@@ -286,41 +316,8 @@ nav.custom .dropdown-content a:hover {
 }
 
 
-/*FOOTER
+/* TWITTER FEED
 ==========================*/
-
-footer a {
-    color: #e7ebec;
-}
-
-footer.page-footer {
-    margin-top: 60px;
-}
-
-footer .col:nth-of-type(1) {
-    padding-right: 50px;
-}
-
-footer .col:nth-of-type(2) {
-    padding-left: 50px;
-}
-
-@media only screen and (max-width: 415px) {
-    footer.page-footer .footer-copyright {
-        padding-right: 5px;
-        padding-left: 5px;
-        line-height: 1.25em;
-        }
-
-    .footer-copyright {
-        padding-top: 10px;
-    }
-}
-
-.uk-text-lead {
-    font-weight: bold;
-}
-
 .feed-item .meta {
     position: relative;
     top: -20px;
@@ -338,4 +335,42 @@ footer .col:nth-of-type(2) {
 
 .twitter {
     margin: 60px auto;
+}
+
+
+/* FOOTER
+==============================*/
+
+footer {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: rgb(214, 213, 213);
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+}
+
+footer.page-footer {
+    margin-top: 60px;
+}
+
+footer .social i {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 415px) {
+    footer.page-footer .footer-copyright {
+        padding-right: 5px;
+        padding-left: 5px;
+        line-height: 1.25em;
+        }
+
+    .footer-copyright {
+        padding-top: 10px;
+    }
 }
