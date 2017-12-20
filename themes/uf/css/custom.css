@@ -26,6 +26,11 @@ h1, h2 {
     text-align: center;
 }
 
+.uk-text-lead {
+    font-weight: bold;
+}
+
+
 /* NAV
 ============================*/
 
@@ -142,6 +147,7 @@ nav.custom .dropdown-content a:hover {
     color: #2bbbad;
 }
 
+
 /* Intro
 ========================== */
 
@@ -163,11 +169,12 @@ nav.custom .dropdown-content a:hover {
     padding: 5px;
 }
 
-@media only screen and (max-width: 550px)  {
+@media only screen and (min-width: 550px)  {
 
-    h3 {
-        font-size: 1.8em !important;
+    .faq li h3 {
+        font-size: 1.5rem;
     }
+
     .section {
         padding-top: 30px;
         padding-bottom: 40px;
@@ -211,6 +218,7 @@ nav.custom .dropdown-content a:hover {
     }
 }
 
+
 /* Features section
 ============================ */
 
@@ -228,6 +236,7 @@ nav.custom .dropdown-content a:hover {
         padding: 25px 0;
     }
 }
+
 
 /* FAQ
 ============================*/
@@ -271,10 +280,17 @@ nav.custom .dropdown-content a:hover {
         right: 0;
     }
     .slick-prev {
-        left: 2px;
+        left: 0;
         z-index: 100;
     }
 }
+
+@media only screen and (max-width: 335px) {
+    .slick-prev:before, .slick-next:before {
+        color: rgb(56, 170, 214);
+    }
+}
+
 
 /* Contributors
 =================================*/
@@ -295,41 +311,8 @@ nav.custom .dropdown-content a:hover {
 }
 
 
-/*FOOTER
+/* TWITTER FEED
 ==========================*/
-
-footer a {
-    color: #e7ebec;
-}
-
-footer.page-footer {
-    margin-top: 60px;
-}
-
-footer .col:nth-of-type(1) {
-    padding-right: 50px;
-}
-
-footer .col:nth-of-type(2) {
-    padding-left: 50px;
-}
-
-@media only screen and (max-width: 415px) {
-    footer.page-footer .footer-copyright {
-        padding-right: 5px;
-        padding-left: 5px;
-        line-height: 1.25em;
-        }
-
-    .footer-copyright {
-        padding-top: 10px;
-    }
-}
-
-.uk-text-lead {
-    font-weight: bold;
-}
-
 .feed-item .meta {
     position: relative;
     top: -20px;
@@ -347,4 +330,36 @@ footer .col:nth-of-type(2) {
 
 .twitter {
     margin: 60px auto;
+}
+
+
+/* FOOTER
+==============================*/
+
+footer {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer a {
+    color: #fff;
+}
+
+footer.page-footer {
+    margin-top: 60px;
+}
+
+footer .social i {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 415px) {
+    footer.page-footer .footer-copyright {
+        padding-right: 5px;
+        padding-left: 5px;
+        line-height: 1.25em;
+        }
+
+    .footer-copyright {
+        padding-top: 10px;
+    }
 }
