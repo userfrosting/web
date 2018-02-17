@@ -64,7 +64,7 @@ a.btn {
      transition: all 0.5s ease!important;
 }
 
-nav .nav-active:after {
+nav .nav-active:not(.btn):after {
     content: '';
     display: block;
     background-color: rgba(255, 255, 255, 1);

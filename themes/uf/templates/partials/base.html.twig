@@ -27,6 +27,7 @@
     {{ assets.css() }}
 
     {% block analytics %}
+        {# Must be in <head> for GA to verify site ownership #}
         {% if theme_config.google_analytics_code %}
             {% include 'partials/analytics.html.twig' %}
         {% endif %}
