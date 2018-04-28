@@ -171,6 +171,24 @@ nav.custom .dropdown-content a:hover {
     margin: auto;
 }
 
+@media only screen and (max-width: 913px)  {
+    .frontpage-img {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 756px)  {
+    .frontpage-img {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 614px)  {
+    .frontpage-img {
+        max-width: 100%;
+    }
+}
+
 .uk-slidenav:hover {
     color: black;
 }
@@ -321,6 +339,12 @@ nav.custom .dropdown-content a:hover {
     padding-left: 1rem;
 }
 
+/* GITHUB FEED
+==========================*/
+
+.feed-item {
+    word-wrap: break-word;
+}
 
 /* TWITTER FEED
 ==========================*/
@@ -343,11 +367,17 @@ nav.custom .dropdown-content a:hover {
     margin: 60px auto;
 }
 
-/* TWITTER FEED
+
+/* OPEN COLLECTIVE BANNER
 ==========================*/
 .sponsors h3 {
     text-align: center;
 }
+
+.opencollective-banner iframe {
+    width: 100%;
+}
+
 
 /* FOOTER
 ==============================*/
