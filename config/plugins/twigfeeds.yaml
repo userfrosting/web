@@ -10,7 +10,3 @@ twig_feeds:
     name: Latest Release
     start: 0
     end: 1
-  - source: https://api.travis-ci.org/repos/userfrosting/UserFrosting/builds.atom
-    name: Latest Builds
-    start: 0
-    end: 5
