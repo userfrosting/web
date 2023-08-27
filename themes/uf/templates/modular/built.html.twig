@@ -5,7 +5,7 @@
     <div class="slick-slider">
         {% for image in page.media.images %}
         <div class="slide slide--has-caption slick-slide">
-            {{ image.lightbox(1024,768).cropResize(auto,300).html }}
+            {{ image.lightbox(1024,768).cropResize(auto,300).html|raw }}
              <div class="slide__caption">
                 <a href="{{ image.meta.link }}">
                    {{ image.meta.name }}

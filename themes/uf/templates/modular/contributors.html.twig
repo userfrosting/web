@@ -7,7 +7,7 @@
         <div class="uk-flex">
             {% for image in p.media.images %}
             <div class="uk-flex-item-none">
-                {{ image.html }}
+                {{ image.html|raw }}
             </div>
             {% endfor %}
             <div>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="uk-article-lead">
-            {{ p.content }}
+            {{ p.content|raw }}
         </div>
     </article>
     {% endfor %}

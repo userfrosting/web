@@ -27,7 +27,7 @@
     <div class="features-page">
         
             {% for child in page.collection() %}
-                {{ child.content }}
+                {{ child.content|raw }}
             {% endfor %}
 
     </div><!-- End features section-->

@@ -24,7 +24,7 @@
         {% do assets.addCss('theme://css/custom.css', 98) %}
         {% do assets.addCss('theme://css/features.css', 97) %}
     {% endblock %}
-    {{ assets.css() }}
+    {{ assets.css()|raw }}
 
     {% block analytics %}
         {# Must be in <head> for GA to verify site ownership #}
@@ -68,7 +68,7 @@
         {% do assets.addJs('theme://js/slick.js', 98) %}
         {% do assets.addJs('theme://js/custom.js', 96) %}
     {% endblock %}
-    {{ assets.js() }}
+    {{ assets.js()|raw }}
 
     {% include 'partials/rocket.html.twig' %}
 {% endblock %}

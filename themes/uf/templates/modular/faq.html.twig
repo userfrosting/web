@@ -6,7 +6,7 @@
         {% for p in page.collection %}
         <li>
             <h3 class="uk-accordion-title">{{ p.title }}</h3>
-            <div class="uk-accordion-content">{{ p.content }}</div>
+            <div class="uk-accordion-content">{{ p.content|raw }}</div>
         </li>
         {% endfor %}
     </ul>

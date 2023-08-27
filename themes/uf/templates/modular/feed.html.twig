@@ -8,12 +8,12 @@
            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
        </h5>
         <span>{{ item.date.date|date("m/d/y") }}</span>
-        {{ item.content }}
+        {{ item.content|raw }}
     </div>
     {% endfor %}
 {% endfor %}
 
-    <div class="twitter center-align">
+    {# <div class="twitter center-align">
         <a class="twitter-timeline" data-width="600" data-height="500" href="https://twitter.com/userfrosting?ref_src=twsrc%5Etfw">Tweets by userfrosting</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+    </div> #}
 </div>
