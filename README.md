@@ -55,7 +55,7 @@ Add default webserver user `daemon` to OSX's `staff` group (which already has th
    docker run -d --rm --name=userfrosting-web -p 8080:80 -v "$(pwd):/var/www/grav/user" grav:latest
    ```
 
-It will take a couples of second for the site to be up and running while the base Grav installation is done. Once this is complete, you can access the documentation at [http://localhost:8080/](http://localhost:8080/).
+It will take a couples of second for the site to be up and running while the base Grav installation is done. Once this is complete, you can access the website at [http://localhost:8080/](http://localhost:8080/).
 
 To stop the container:
 

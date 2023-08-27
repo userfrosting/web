@@ -5,10 +5,10 @@
     {% for item in feed.items %}
     <div class="feed-item">
         <h5>
-           <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+           <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
        </h5>
-        <span>{{ item.date.date|date("m/d/y") }}</span>
-        {{ item.content|raw }}
+        <span>{{ item.lastModified|date("m/d/y") }}</span>
+        {{ item.description|raw }}
     </div>
     {% endfor %}
 {% endfor %}

@@ -2,7 +2,7 @@ git:
     twigfeeds:
         url: https://github.com/OleVik/grav-plugin-twigfeeds
         path: user/plugins/twigfeeds
-        branch: 4.0.1
+        branch: v4.0.1
     error:
         url: https://github.com/getgrav/grav-plugin-error
         path: user/plugins/error
