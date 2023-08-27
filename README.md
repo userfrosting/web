@@ -37,6 +37,40 @@ Add default webserver user `daemon` to OSX's `staff` group (which already has th
 
 `sudo dseditgroup -o edit -a daemon -t user staff`
 
+## Docker Installation
+
+1. Clone repo
+   ```
+   git clone https://github.com/userfrosting/web.git userfrosting-web
+   cd userfrosting-web
+   ```
+
+2. Build Grav container
+   ```
+   docker build -t grav:latest .
+   ```
+
+3. Start Grav container
+   ```
+   docker run -d --rm --name=userfrosting-web -p 8080:80 -v "$(pwd):/var/www/grav/user" grav:latest
+   ```
+
+It will take a couples of second for the site to be up and running while the base Grav installation is done. Once this is complete, you can access the documentation at [http://localhost:8080/](http://localhost:8080/).
+
+To stop the container:
+
+```bash
+docker stop userfrosting-web
+```
+
+To access Grav command line utility or gpm, you can use :
+
+```bash
+docker exec -it userfrosting-web bash
+chmod +x bin/gpm # This is only needed if permissions are acting up
+bin/grav install
+```
+
 ## Credits
 
 Favicons were generated with https://realfavicongenerator.net/
